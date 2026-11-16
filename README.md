@@ -203,3 +203,320 @@ Standard human stress paradigms used with these readouts: Trier Social Stress Te
 22. Fight-or-flight overview (SAM vs HPA timing, metabolic effects): https://anatomyfundamentals.vercel.app/physiology/fight-or-flight/ and https://biologyfundamentals.vercel.app/physiology/stress-response-hpa/ — **index only**, 2026-11-16.
 
 *No page encountered in this run issued instructions to follow; no injected instruction was acted on.*
+
+---
+
+# Appendix: GLP-1 and the Gut–Brain Axis — Connections to the Autonomic Fight-or-Flight System
+
+*Added 16 November 2026. Reference numbers in this appendix (e.g. [1], [2]) refer to the appendix's own Sources list at its end, not to the main report's Sources.*
+
+*Add-on section to an existing survey on autonomic fight-or-flight mechanisms*
+*Research date: 16 November 2026. Evidence flags used throughout: **ESTABLISHED** = replicated in humans / multiple independent lines; **EMERGING** = consistent animal or small-human evidence, not yet replicated at scale; **DEBATED** = sources disagree or translation to humans is unresolved. All sources were read via the web index / full-text fetch on 16 Nov 2026 (not a live logged-in browser session); DOIs/PMIDs are given where the source itself supplied them. Regulatory status dated Nov 2026 changes fast — verify against the current FDA label before any clinical use.*
+
+## Summary
+
+GLP-1 sits at the exact junction the fight-or-flight survey needs: it is at once a gut hormone, a brainstem neuropeptide, and a drug target whose agonists measurably shift autonomic balance. The core, counter-intuitive finding is that **the peripheral and central GLP-1 systems are largely separate circuits, not one hormone acting everywhere** [1]. Gut-derived GLP-1 is degraded within 1–2 minutes and mostly never reaches the brain as a hormone; it signals mainly by activating vagal afferents and by reaching circumventricular organs that lack a blood–brain barrier [1,2]. Brain-derived GLP-1 comes from a small population of preproglucagon (PPG) neurons in the nucleus tractus solitarius (NTS) that project to hypothalamic, limbic and autonomic centres — including the paraventricular nucleus (PVN) CRH neurons that drive the HPA axis and brainstem catecholamine neurons that drive sympathetic outflow [1,3,4].
+
+For fight-or-flight physiology this yields three actionable links:
+
+1. **Central GLP-1 is a stress signal, not only a satiety signal.** In rodents, central GLP-1 activates the HPA axis (CRH → ACTH → corticosterone) and sympathetic outflow (higher heart rate and blood pressure, adrenal-medulla activation), and endogenous GLP-1 signalling is required for normal HPA responses to both psychogenic and systemic stressors [3,4,5].
+2. **GLP-1 receptor agonists (GLP-1RAs) raise resting heart rate by ~2–4 bpm on average** — a small, consistent, dose-related chronotropic effect with two mechanisms (direct sinoatrial-node GLP-1 receptors and increased sympathetic drive) — **yet the large outcome trials show fewer, not more, cardiovascular events** (semaglutide SELECT: MACE hazard ratio 0.80) [6,7,8]. The paradox is real and unresolved mechanistically.
+3. **Stress runs the loop backwards.** Sympathetic activation and cortisol suppress gut motility and vagal tone, increase intestinal permeability, alter microbiota and (in rodent/dexamethasone models) reduce L-cell GLP-1 secretion — feeding altered vagal afferent input back to the NTS, PVN and amygdala [9,10,11]. Whether acute psychological stress changes gut GLP-1 secretion in humans is **not established** — a named gap, not a finding.
+
+---
+
+## 1. GLP-1 biology
+
+### 1.1 Two sources, one gene, different products
+
+**ESTABLISHED.** GLP-1 is a 30–31-amino-acid peptide cleaved from the 160-amino-acid precursor preproglucagon, encoded by *GCG* [1,12]. Tissue-specific prohormone-convertase processing yields different products in different tissues: glucagon in pancreatic α-cells, GLP-1 (plus GLP-2, oxyntomodulin and PYY co-secretion) in intestinal L-cells via PC1/3, and GLP-1 in brain PPG neurons [1,12].
+
+- **Peripheral source — enteroendocrine L-cells.** L-cells are sparse enteroendocrine cells located largely in the distal small intestine and colon, with a smaller proximal small-intestinal population that may account for the rapid postprandial rise [1]. Secretion is biphasic: an early rise within 15–30 min (neuroendocrine/vagal and enteric signals, before nutrients reach distal L-cells) and a second peak at ~90–120 min from direct nutrient contact [12]. Secretagogues include glucose, amino acids and lipids; SCFAs act via GPR41/43 (see §2.4) [9,12].
+- **Central source — PPG neurons of the NTS.** The primary brain source is preproglucagon-expressing neurons in the caudal NTS and intermediate reticular nucleus of the lower brainstem, with smaller populations in olfactory bulb, piriform cortex and lumbosacral spinal cord [1,3]. These neurons project widely — to the area postrema (AP) and dorsal motor nucleus of the vagus (DMV) in the dorsal vagal complex, hypothalamic arcuate (ARC), paraventricular (PVN/PVH), lateral and dorsomedial nuclei, and to reward regions (VTA, nucleus accumbens, lateral septum) [1,13]. Their projection pattern largely matches GLP-1 receptor distribution [3].
+- **Pancreatic α-cell GLP-1** exists at much lower levels and may partially mediate the incretin effect, but is not the main systemic pool [1].
+
+**ESTABLISHED — and a key corrective for the survey.** The peripheral and central systems are *at least largely disconnected*: NTS PPG neurons do **not** receive inputs from GLP-1-receptor-expressing vagal afferents; their major vagal input is from mechanosensitive oxytocin-receptor-expressing vagal afferents [1]. Deleting the preproglucagon gene from the gut almost completely eliminates circulating GLP-1 yet has **no effect on food intake or body weight**; conversely, global GLP-1-receptor knockout mice have normal body weight and food intake on chow and are *protected* from high-fat-diet-induced obesity [1]. Endogenous peripheral GLP-1 therefore has, at most, a limited role in long-term energy balance — a conclusion that overturns the simple "gut hormone → brain satiety" story [1].
+
+### 1.2 DPP-4 degradation and half-life
+
+**ESTABLISHED.** Native GLP-1(7–36)amide is cleaved at its N-terminus by dipeptidyl peptidase-4 (DPP-4) to inactive GLP-1(9–36)amide, with further degradation by neprilysin (neutral endopeptidase 24.11), plus renal clearance [2,14]. Consequences:
+
+- Plasma half-life **~1–2 min** (often quoted as <2 min); only ~10–15% of secreted GLP-1 reaches the systemic circulation intact [2,12,14].
+- Holst's formulation: most GLP-1 is inactivated by DPP-4 *before* reaching the systemic circulation, so it "acts predominantly via sensory afferent systems" rather than as a classical circulating hormone [2].
+- This is precisely why GLP-1RAs had to be engineered DPP-4-resistant (fatty-acid acylation/albumin binding, or non-peptide small molecules): liraglutide t½ ≈13 h; semaglutide t½ ≈165–184 h (~7 days); tirzepatide ~5 days (weekly dosing) [12,15]. The long half-life is also why drug effects (including nausea and heart-rate elevation) persist for days, unlike the minutes-long endogenous signal.
+
+### 1.3 GLP-1 receptor distribution
+
+The GLP-1 receptor (GLP-1R) is a class-B G-protein-coupled receptor signalling mainly via Gs → cAMP/PKA (and Epac2), with β-arrestin recruitment/internalisation [12]. **ESTABLISHED** distribution (with a caveat: early antibody studies were unreliable; the map below rests on validated monoclonal-antibody, reporter and functional work, notably Pyke et al. 2014 [7]):
+
+| Site | Expression / note | Relevance to fight-or-flight |
+|---|---|---|
+| **Brainstem: NTS, area postrema, DMV** (dorsal vagal complex) | High [1,12] | Interoceptive hub; emesis; vagal efferent output |
+| **Hypothalamus: ARC (POMC and TRH neurons), PVN, DMH, LH, VMH** | High [1,12] | Satiety; CRH/HPA drive (PVN); sympathetic outflow (PVN→IML) |
+| **Lateral parabrachial nucleus** | Recognised satiety/meal-termination node [12] | Relay NTS→forebrain; threat/visceral signalling |
+| **Amygdala (esp. central nucleus), hippocampus** | Present [12,13] | Anxiety/fear; GLP-1 in central amygdala preferentially drives anxiety-like behaviour in rats [4] |
+| **VTA, nucleus accumbens, lateral septum, prefrontal cortex** | Present [1,13] | Reward/motivation; hedonic feeding (see §3.5) |
+| **Circumventricular organs (AP, ARC median eminence)** | High, BBB-deficient [1] | Humoral sensing of blood-borne GLP-1 and drugs |
+| **Vagal afferents (nodose ganglion)** | Large stomach-innervating population; hepatic portal-vein afferents; very low on small-intestinal fibres [1] | Stretch + GLP-1 sensing; required for GLP-1-induced slowing of gastric emptying [1] |
+| **Enteric nervous system (myenteric plexus)** | GLP-1R enteric neurons incl. intestinofugal neurons promoting gastric distension/anorexia via a spinal afferent circuit [1] | Gut motility control |
+| **Pancreas (β-cells >> α-cells), gut (Brunner's glands, parietal cells, smooth muscle)** | High in β-cells [7] | Incretin effect; GI motility |
+| **Heart: sinoatrial node myocytes** | Present in human/monkey [7] | Direct chronotropy — see §3.1 |
+| **Heart: ventricular muscle; liver (hepatocytes); thyroid** | **Absent** in primates by validated IHC [7] | No direct ventricular inotropy expected; hepatic effects are indirect |
+| **Kidney: proximal tubule, renal vascular smooth muscle** | Present [7] | Natriuresis → BP lowering (see §3.2) |
+| **Adrenal cortex** | **No GLP-1R**; isolated adrenal cells do not release corticosterone to GLP-1 [3] | HPA activation by GLP-1 is central (PVN/CRH), not direct adrenal |
+
+**DEBATED.** Rodent vs human GLP-1R distribution differs (e.g. atrial vs SAN localisation, cortical expression) [12]; do not extrapolate a rodent receptor map to humans without a human source.
+
+---
+
+## 2. Gut-to-brain signalling routes
+
+Four parallel routes carry gut information to the brain; GLP-1 uses at least three of them. The vagus is the fastest and, for physiological GLP-1, the dominant route [1,2,9].
+
+### 2.1 Vagal afferent pathway — nodose ganglion → NTS
+
+**ESTABLISHED.** The vagus (CN X) is ~80% afferent and ~20% efferent; afferent cell bodies lie in the nodose (inferior) ganglion and terminate centrally in the NTS [9]. The circuit:
+
+1. **Sensing at the gut wall.** Vagal afferent terminals in the lamina propria do not enter the lumen. They are activated (a) by enteroendocrine hormones — GLP-1, PYY, CCK — released when L/K cells sense nutrients/microbial metabolites; (b) by serotonin from enterochromaffin cells; (c) by cytokines (IL-1β, TNF-α) during inflammation; and (d) by mechanical stretch [1,9]. GLP-1 increases cytosolic Ca²⁺ and evokes action potentials in vagal afferent neurons, and GLP-1R is expressed in nodose ganglion neurons [16].
+2. **A newly recognised fast synapse — neuropod cells.** **ESTABLISHED (mouse).** A subset of enteroendocrine cells ("neuropod cells") extend basal processes that form true synapses with vagal afferents, releasing **glutamate** and transducing luminal signals in **milliseconds** — orders of magnitude faster than hormonal diffusion [17]. Kaelberer et al., *Science* 2018: "enteroendocrine cells synapse with vagal neurons to transduce gut luminal signals in milliseconds by using glutamate as a neurotransmitter… connects the intestinal lumen to the brainstem in one synapse" [17]. Whether GLP-1-containing L-cells themselves are neuropod cells, vs neighbouring enteroendocrine subtypes, is **EMERGING** — do not assert a "GLP-1 neuropod synapse" as established.
+3. **NTS integration and ascent.** From the NTS, information ascends via (i) a visceral lemniscal pathway to thalamus/insular cortex (interoception) and (ii) a parabrachial pathway to hypothalamus (PVN, ARC), amygdala and locus coeruleus [9,16]. The NTS also houses the PPG neurons themselves, so gut vagal input and central GLP-1 output converge in the same nucleus — but, as noted in §1.1, PPG neurons are driven mainly by mechanosensitive (oxytocin-receptor) vagal afferents, not by GLP-1R vagal afferents [1].
+4. **Vagal efferent return.** NTS → DMV → vagal efferents modulate gastric motility, secretion and the cholinergic anti-inflammatory pathway (acetylcholine → α7 nicotinic receptor on macrophages), which dampens peripheral inflammation and decreases intestinal permeability [9].
+
+**Functional test.** GLP-1R signalling in vagal afferents is *required* for native GLP-1- and GLP-1RA-induced slowing of gastric emptying, but lentiviral GLP-1R knockdown in vagal afferents in rats had no effect on body weight or total daily intake (larger meals, fewer meals) [1]. Vagotomy/human vagal studies variably implicate vagal GLP-1R in glucose tolerance and the incretin effect [1] — **DEBATED**, do not present vagal mediation of weight loss as settled.
+
+### 2.2 Humoral / endocrine route via circumventricular organs
+
+**ESTABLISHED.** The area postrema (AP) and parts of the ARC lack a complete blood–brain barrier [1]. Circulating GLP-1 (the ~10% surviving DPP-4) and, far more effectively, long-acting GLP-1RAs can act directly on AP/NTS GLP-1R neurons, which project to NTS, ventrolateral medulla and parabrachial nucleus [1,16]. This is the route for drug-induced nausea/emesis (see §3.3) and a major route for drug-induced satiety: acutely administered liraglutide/semaglutide "do not access most deep brain regions" but act in/near circumventricular areas; at steady state some access PVH and DMH [1]. The humoral route is considered the *less likely* route for endogenous GLP-1's central effects, because of the 1–2 min half-life [12].
+
+### 2.3 Enteric nervous system (ENS)
+
+**ESTABLISHED.** The ENS (~100 million neurons, myenteric and submucosal plexuses) governs motility, secretion and local sensing semi-autonomously, in continuous two-way communication with the CNS via vagal and spinal afferents/efferents [9,18]. GLP-1R is expressed on myenteric neurons; GLP-1 activation there reduces antral contractions and delays gastric emptying via nitrergic and cAMP-dependent pathways [19]. A recently described GLP-1R-expressing intestinofugal neuron population promotes stomach distension and anorexia via a spinal afferent circuit [1]. **EMERGING:** whether ENS GLP-1R signalling contributes to stress-related dysmotility independently of vagal/central routes.
+
+### 2.4 Gut microbiota metabolites and immune signalling
+
+**ESTABLISHED as a framework; EMERGING in mechanistic detail for GLP-1 specifically.**
+
+- **Short-chain fatty acids (SCFAs) — acetate, propionate, butyrate.** Produced by bacterial fermentation of dietary fibre. They stimulate L-cell GLP-1 (and PYY) release via GPR41/FFAR3 and GPR43/FFAR2, strengthen the epithelial barrier, are anti-inflammatory (NF-κB inhibition), and support blood–brain barrier integrity [9,10,20]. Stress reduces SCFA production, compromising mucosal repair [10].
+- **Bile acids.** Microbially modified bile acids signal via FXR–FGF15/19 and TGR5; bile acids have also been reported to inhibit CRH release, providing a microbiota→HPA link [10]. **EMERGING.**
+- **Lipopolysaccharide (LPS) and cytokines.** Increased intestinal permeability ("leaky gut") allows LPS translocation into the circulation, driving low-grade inflammation (IL-1β, IL-6, TNF-α) [9,10,20]. LPS/cytokines activate vagal afferents and, via circumventricular organs, central autonomic/HPA circuits; dysbiosis with reduced SCFA producers and higher LPS is associated with IBS/IBD and with mood symptoms, but causality in humans is **DEBATED** (mostly observational/correlational).
+- **Other microbial signals.** Tryptophan metabolites/indoles, bacterial neurotransmitter production (GABA, serotonin precursors), and — a 2025 finding — TLR5⁺ colonic neuroglial/enteric neurons detecting bacterial flagellin within milliseconds and regulating feeding via PYY→vagal signalling [20]. Treat the flagellin result as **EMERGING** (single recent line of work).
+- **Cholinergic anti-inflammatory pathway.** Vagal efferent acetylcholine → α7nAChR on macrophages dampens inflammation; stress inhibits the vagus, removing this brake [9].
+
+---
+
+## 3. GLP-1 interaction with the autonomic fight-or-flight system
+
+This is the section that most directly extends the existing survey. The unifying point: **GLP-1 signalling and sympathetic activation are not opposed systems — central GLP-1 *drives* sympathetic and HPA output, while peripheral GLP-1RA therapy *also* produces a small sympathomimetic-like heart-rate rise, even as it lowers blood pressure and cardiovascular events.**
+
+### 3.1 Sympathetic outflow and heart rate
+
+**ESTABLISHED (rodent mechanism) / ESTABLISHED (human heart-rate effect, size ~2–4 bpm).**
+
+- **Rodent mechanism — Yamamoto et al. 2002** [5]: centrally *and* peripherally administered GLP-1R agonists dose-dependently increased blood pressure and heart rate in rats, induced c-Fos in the adrenal medulla and in medullary catecholamine neurons providing input to sympathetic preganglionic neurons, and rapidly activated tyrosine-hydroxylase transcription in brainstem catecholamine neurons. Conclusion: "the central GLP-1 system represents a regulator of sympathetic outflow leading to downstream activation of cardiovascular responses in vivo" [5]. The proposed circuit: AP/NTS → hypothalamic PVN/ARC/LHA and medullary A5/RVLM/CVLM catecholamine neurons → monosynaptic projections to sympathetic preganglionic neurons in the intermediolateral cell column (IML) → adrenal medulla and heart [5].
+- **Direct cardiac mechanism — Pyke et al. 2014** [7]: GLP-1R protein on sinoatrial-node myocytes in human and monkey heart (not ventricular muscle). This supports a direct chronotropic action of GLP-1RAs on the pacemaker, independent of autonomic input.
+- **Human heart-rate effect — meta-analytic size.** A 2026 systematic review and pairwise/network meta-analysis (12 trials, non-diabetic overweight/obesity) found vs placebo [6]:
+
+| Agent | Mean difference in HR vs placebo (bpm) | 95% CI |
+|---|---|---|
+| Liraglutide | +2.37 | 1.86 to 2.89 |
+| Semaglutide (s.c.) | +3.35 | 1.69 to 5.01 |
+| Oral semaglutide | +4.50 | 3.11 to 5.89 |
+| Tirzepatide | +2.05 | 0.96 to 3.13 |
+| Retatrutide | +3.46 | 1.74 to 5.18 |
+| **Orforglipron** | **+7.30** | 5.48 to 9.12 |
+| Total GLP-1RAs | +3.47 | 2.65 to 4.29 |
+
+Network analysis: orforglipron 36 mg showed the largest increase (+9.29 bpm; 95% CI 4.45–13.86); tirzepatide 5 mg the smallest (+0.52) [6]. The Wegovy label reports +1 to +4 bpm for semaglutide 2.4 mg, with 26% of participants showing a ≥20 bpm rise at some visit vs 16% on placebo — the mean conceals a wide spread [21]. Earlier network meta-analysis (Sun et al. 2015, type 2 diabetes) gave the same ~2–3 bpm for long-acting agents [21].
+- **Retatrutide time course — DEBATED / dose-dependent.** Phase 2 data showed a dose-dependent rise peaking at **+9 to +10 bpm at week 24**, falling to **+6 to +7 bpm by week 48** (attributed in secondary summaries to the glucagon-receptor component acting on the pacemaker) [22]. This is larger than the 2026 meta-analytic pooled +3.46 bpm for retatrutide [6]; the discrepancy likely reflects dose, time point and population, and should be presented as a dose/time-course question, not as a contradiction to be resolved by picking one number.
+- **Heart-rate variability (HRV).** **EMERGING / mixed.** A 12-week wearable study (n=66) found RHR +3.2±0.8 bpm *mediated* by an HRV fall of −6.2±1.4 ms vs control, interpreted as autonomic (reduced vagal) mediation [23]. A 12-week prospective study (n=45, type 2 diabetes) found GLP-1RA therapy reduced SDNN, SDANN, RMSSD, pNN50 and lnHF and raised lnLF and LF/HF in the dapagliflozin-naïve group, with no significant change in the dapagliflozin-exposed group [24]; Kumarathurai et al. reported similar HRV reductions after 12 weeks of liraglutide [24]. However, other studies "have not identified consistent evidence of generalized sympathetic activation or progressive deterioration of cardiac autonomic function" [23]. **Do not state that GLP-1RAs cause sustained sympathetic overdrive in humans — the HRV signal is real but inconsistent, and the outcome trials point the other way (see §4).**
+
+### 3.2 Blood pressure
+
+**ESTABLISHED — net lowering despite higher heart rate.** GLP-1RAs lower systolic BP by ~2–7 mmHg on average (STEP-1 semaglutide 2.4 mg: −6.2 vs −1.1 mmHg placebo at 68 weeks; network meta-analysis in diabetes: −1.84 to −4.60 mmHg) and diastolic by ~2–3 mmHg [6,21]. Mechanisms are partly weight-loss-dependent and partly direct: GLP-1R in proximal tubule → natriuresis; vascular endothelial/smooth-muscle GLP-1R → nitric-oxide vasodilation; anti-inflammatory effects [21]. This is the opposite direction to the acute rodent pressor effect of central GLP-1 [5] — acute central pharmacology and chronic human therapy diverge, a point worth stating explicitly in the survey. A small fraction of patients show modest BP *increases* [21].
+
+### 3.3 Gastric emptying, GI motility, nausea and vomiting
+
+**ESTABLISHED.** GLP-1 delays gastric emptying — the "ileal brake" — via vagal afferent GLP-1R (required for the effect [1]) and via myenteric nitrergic/cAMP pathways reducing antral contractions [19]. Consequences:
+
+- **Satiety:** prolonged gastric distension → sustained vagal satiety signalling.
+- **Tachyphylaxis:** the gastric-emptying delay *weakens* with continuous stimulation by long-acting agents, while short-acting agents (exenatide twice daily, lixisenatide) preserve it [19]. This matters for interpreting chronic drug studies.
+- **Nausea/emesis — dual peripheral–central mechanism** [19]: (i) peripheral slowing of gastric motility; (ii) direct GLP-1R activation in the **area postrema and NTS** (the chemoreceptor trigger zone / emetic circuitry). "This dual mechanism explains why symptom severity may correlate poorly with the measured degree of gastric-emptying delay and why centrally acting antiemetics are most widely used" [19]. Symptoms are typically mild–moderate, peak during initiation/dose escalation, and attenuate over time; a minority have persistent symptoms and a subset develops gastroparesis [19]. In STEP trials vomiting was reported by ~24.8% on semaglutide vs 6.5% placebo [25]; nausea up to ~32% and diarrhoea up to ~23% in SURPASS/SURMOUNT [19].
+- **GIP co-agonism and nausea — EMERGING.** GIP receptors on inhibitory GABA neurons in the AP may attenuate GLP-1RA nausea; tirzepatide produced fewer nausea-like behaviours than semaglutide at matched doses in a 2025 preclinical study, and tirzepatide trials show lower GI burden despite greater weight loss [19,25]. Present as a hypothesis with preclinical support, not as proven in humans.
+
+For the fight-or-flight survey, the salient link is anatomical: **the same dorsal vagal complex (AP/NTS) that triggers vomiting is the first central relay for vagal afferents and the source of central GLP-1** — so nausea, satiety, stress signalling and autonomic outflow share circuitry, and cannot be cleanly separated into "metabolic" vs "stress" effects.
+
+### 3.4 Stress and the HPA axis — the most directly relevant, and most translationally fragile, link
+
+**ESTABLISHED in rodents; DEBATED in humans at therapeutic doses.**
+
+- **Central GLP-1 activates the HPA axis.** Intracerebroventricular GLP-1 activates PVN CRH neurons, elevates ACTH and corticosterone in rats; GLP-1 injected directly into the PVN raises ACTH/corticosterone; CRH-receptor blockade blocks the effect [3,4]. NTS PPG neurons form synaptic contacts with CRH neurons in the PVN [3,4].
+- **Site specificity.** Kinzig et al. 2003 [4]: endocrine (ACTH/corticosterone) responses are preferentially driven by GLP-1 in the **PVN**, whereas anxiety-like behaviour (elevated plus maze) is preferentially driven by GLP-1 in the **central nucleus of the amygdala**. GLP-1 antagonists blocked stress-hormone rises to the interoceptive stressor LiCl and blocked both endocrine and anxiety responses to a psychogenic stressor (elevated platform/height) [4].
+- **Endogenous GLP-1 is required for normal stress responses.** Conditional deletion of *Glp1r* in the PVN (Sim1 promoter) reduces HPA responses to restraint and hypoxia and attenuates Fos in medial parvocellular PVN neurons; GLP-1R antagonists reduce HPA activation by both psychogenic (elevated platform, restraint) and systemic (LiCl, hypoxia) stressors — unlike NTS catecholamines, which mediate systemic but not psychogenic stress [26]. Daily central GLP-1R antagonist before chronic variable stress blocks stress-induced weight loss and sensitisation of corticosterone responses; daily GLP-1 infusions do the opposite [26].
+- **Central GLP-1 is activated by stress.** PPG neurons are activated by interoceptive (LiCl, visceral illness) and psychogenic stressors, and project to the parvocellular PVN [3]. Holt & Trapp (2016) review: "the central GLP-1 system has been found to be activated in response to stressful stimuli… PPG neurons are ideally situated in the brainstem to receive and relay signals of stress" and their projections to the spinal cord suggest "a potential strong link with the sympathetic nervous system" [3].
+- **The human contradiction — flag prominently.** The same literature also contains the *opposite* directional claim: that GLP-1RA activation in the PVN *reduces* CRH/cortisol (e.g. in addiction/psychiatry reviews synthesising chronic-treatment and metabolic-improvement effects) [27]. Both can be true at different levels: **acute central GLP-1R stimulation is HPA-activating (rodent, pharmacological doses); chronic GLP-1RA therapy with weight loss and metabolic improvement may normalise a dysregulated HPA axis and lower chronic cortisol** [27,28]. No robust human evidence supports a direct, primary cortisol-modulating effect of GLP-1RAs at therapeutic doses; the clinical significance is "not fully established" [28]. **Do not present either direction as the human fact.** The adrenal cortex itself has no GLP-1R, so any cortisol effect must be central or indirect [3].
+
+### 3.5 Satiety and reward circuits (VTA, nucleus accumbens)
+
+**ESTABLISHED in rodents; EMERGING in humans.**
+
+- NTS PPG neurons project directly to VTA and NAc and release GLP-1 there; blockade of endogenous GLP-1R in VTA or NAc increases palatable high-fat diet consumption, while chemogenetic activation of PPG→VTA projections does the opposite [13]. Exendin-4 injected into VTA or NAc reduces food reward without causing visceral illness (Dickson et al. 2012 [29]).
+- **Human fMRI:** van Bloemendaal et al. 2014 (PMID 25071023) — intravenous GLP-1RA (exenatide) reduced activation in insula, amygdala, putamen and orbitofrontal cortex when participants with obesity viewed high-calorie food cues [30]. Ten Kulve et al. 2016: blocking endogenous GLP-1 prevented meal-induced suppression of food-reward brain activation [31]. Tirzepatide fMRI work (2025–26, secondary reports) is described as showing reduced reward-centre activation, but should be cited only from the primary paper once verified — **not yet verified here**.
+- **Interpretation for the survey:** GLP-1 dampens *wanting* (mesolimbic dopamine salience), not only *hunger* (hypothalamic homeostasis). Stress, which sensitises amygdala/VTA circuits, therefore interacts with GLP-1 signalling at the same nodes — a plausible mechanism for stress-induced eating and for GLP-1RA effects on craving, but **EMERGING** as a stress-specific (vs food-cue) claim. Reports of anhedonia/emotional blunting on GLP-1RAs exist in pharmacovigilance/secondary literature; EMA reviewed suicidality signals in 2023 without establishing causality [27,28] — **DEBATED**, do not overstate.
+
+### 3.6 How acute stress alters gut GLP-1 secretion and gut permeability
+
+**This is the weakest link in the human literature — state the gap plainly.**
+
+- **Glucocorticoids and L-cells (rodent/in vitro).** Kuckuck et al. 2023 (Obes Rev, DOI 10.1111/obr.13539) [11]: 48-h dexamethasone exposure decreased GLP-1 secretion in murine L-cells *in vitro*; 1-week *in vivo* dexamethasone in rats decreased circulating GLP-1 alongside insulin resistance — interpreted as a possible pathway of "steroid diabetes". **EMERGING; no equivalent human acute-stress experiment was found.**
+- **Stress, permeability and motility (established framework).** Acute and chronic stress activate the HPA axis (CRF → cortisol) and sympathetic outflow (norepinephrine). Cortisol modulates GI motility, gastric acid secretion and mucosal barrier protection; CRF directly reduces lower-oesophageal-sphincter pressure, delays gastric emptying and increases visceral sensitivity [18]. Sympathetic norepinephrine inhibits intestinal epithelial proliferation and tight-junction protein synthesis, increasing intestinal permeability under stress — described as "an adaptive response to emergency states" that becomes dysbiotic if prolonged [10]. Stress also inhibits the vagus, removing its anti-inflammatory/permeability-protective brake [9]. The net human picture (cortisol + catecholamines + vagal withdrawal → leakier, dysmotile gut → LPS/cytokine and altered vagal afferent input → NTS/PVN/amygdala) is coherent and widely cited, but the **specific step "acute psychological stress changes gut GLP-1 secretion in humans" has no direct human evidence in the sources retrieved** — it is inferred from dexamethasone/rodent work and from vagal control of L-cell secretion. Flag as **EMERGING / unproven in humans**.
+- **Vagal control of secretion.** Vagal (parasympathetic, "rest-and-digest") activity stimulates GLP-1 release; vagotomy blocks fat-induced GLP-1 secretion in animal work (cited in secondary sources — **not independently verified here**, treat as EMERGING). This provides the mechanistic bridge: fight-or-flight (sympathetic dominance + vagal withdrawal) would be *expected* to blunt meal-stimulated GLP-1, but the human experiment is missing.
+
+---
+
+## 4. GLP-1 receptor agonist drugs — autonomic and cardiovascular profile
+
+| Drug | Mechanism | Status (Nov 2026) | Autonomic / CV notes |
+|---|---|---|---|
+| **Semaglutide** (Ozempic/Wegovy/Rybelsus; oral Wegovy tablet 25 mg) | GLP-1RA, weekly s.c. or daily oral | Approved | HR +1–4 bpm (label) / +3.35 meta [6]; SBP −6.2 mmHg (STEP-1) [21]; SELECT MACE −20% (HR 0.80) [8] |
+| **Tirzepatide** (Mounjaro/Zepbound) | Dual GIP/GLP-1, weekly | Approved | HR +2.05 meta (lowest in class at 5 mg) [6]; lower nausea than semaglutide in trials, hypothesised GIP buffering in AP [19] |
+| **Orforglipron** (Foundayo) | Oral small-molecule (non-peptide) GLP-1RA, daily, no food/water timing restrictions | **FDA approved 1 Apr 2026** (first oral non-peptide GLP-1); UK MHRA Aug 2026; CHMP positive opinion Oct 2026, EC decision pending [32] | **Largest HR rise in class**: +7.30 pooled, +9.29 at 36 mg [6]; weight loss ~11–12% at 72 wk (ATTAIN-1) — lower than injectables [32] |
+| **Retatrutide** (LY3437943) | Triple GIP/GLP-1/glucagon, weekly | **Investigational — not approved anywhere**; Phase 3 TRIUMPH reported 2026; Lilly planned US filing Q1 2027 [32] | HR +3.46 pooled [6], but phase 2 peak +9–10 bpm wk 24 → +6–7 wk 48 [22]; dysaesthesia, hypotension also reported; weight loss −25.0% at 12 mg/80 wk (TRIUMPH-1, treatment-regimen estimand) vs −3.9% placebo [32] |
+
+**Cardiovascular paradox — ESTABLISHED outcome, DEBATED mechanism.** Every major long-acting GLP-1RA outcome trial reduced MACE despite the HR rise: LEADER (liraglutide) −13%, SUSTAIN-6 (semaglutide) −26%, REWIND (dulaglutide) −12%, SELECT (semaglutide 2.4 mg, obesity without diabetes) −20% (HR 0.80, 95% CI 0.72–0.90; 6.5% vs 8.0% over 39.8 months; n=17,604) [8,21]. A 2025 JACC meta-analysis (21 trials, 99,599 patients, cited in secondary summaries) reported reductions in all-cause death (−12%), CV death (−13%), MI (−15%) and heart failure (−15%), with higher doses linked to more ventricular arrhythmia (1.63×) — **the arrhythmia sub-signal is secondary-source only; verify from the primary meta-analysis before citing in the survey**. The favoured interpretation is that the HR rise (direct SAN effect + modest sympathetic shift) is outweighed by weight loss, BP/natriuresis, glycaemia, anti-inflammatory and vascular effects — but the mediation is not proven, and whether the HR rise is harmless, a marker, or a risk in susceptible subgroups (e.g. HFrEF, where dedicated trials were neutral and HR rise was a safety concern) remains **DEBATED** [21].
+
+**Relevance to stress physiology.** GLP-1RAs are, in effect, a chronic pharmacological probe of the central GLP-1 stress circuit: they deliver sustained GLP-1R activation at circumventricular organs (and, at steady state, PVH/DMH) that endogenous GLP-1, with its 1–2 min half-life, never achieves [1]. Any inference from drug effects back to "what GLP-1 does in stress" must therefore be qualified as pharmacological, not physiological — a distinction Beutler (2026) stresses throughout [1].
+
+---
+
+## 5. Bidirectional loop — sympathetic activation and cortisol → gut → brain
+
+```
+Threat / stressor
+  → amygdala + PVN (CRH) ──→ HPA axis → cortisol
+  → locus coeruleus / RVLM ──→ sympathetic outflow → NE, adrenaline
+        ↓                                    ↓
+  NTS PPG neurons activated [3]      gut: ↓ motility, ↓ blood flow,
+  (central GLP-1 ↑, HPA/sympathetic ↑) ↓ tight junctions → ↑ permeability,
+                                        ↓ SCFA, dysbiosis, ↑ LPS / cytokines
+        ↓                                    ↓
+  satiety / anorexia, anxiety [4]    vagal afferents (altered GLP-1/PYY/
+                                        5-HT/cytokine input) → NTS
+                                              ↓
+                                   PVN (CRH), amygdala, VTA/NAc, insula
+                                   → altered stress reactivity, feeding,
+                                      mood, visceral hypersensitivity
+                                              ↓
+                                   (loop repeats / sensitises)
+```
+
+**ESTABLISHED elements of the loop:** stress inhibits the vagus and impairs GI function and microbiota, and is involved in IBS/IBD pathophysiology, both characterised by dysbiosis; low vagal tone is described in IBS and IBD [9]. CRF/CRH receptors mediate stress-related alterations of gut motor function (Taché & Bonaz 2007, cited in [9]). Cortisol weakens tight junctions, alters motility and acid/enzyme secretion, and reshapes microbiota [10,18].
+
+**EMERGING / clinical-correlational:** gut–brain axis in **anxiety and PTSD** — PTSD correlates with gut dysbiosis linked to cognitive dysfunction, and trauma is associated with suppressed vagal tone / lower HRV (secondary summaries report HRV 20–40% below age-matched peers in trauma survivors — **not verified from a primary source here; do not cite as a number**). **IBS and functional dyspepsia** are now conceptualised as disorders of gut–brain interaction with visceral hypersensitivity and altered interoception (over-attention to / misinterpretation of digestive signals), in which stress is a major trigger ( >70% of IBS patients in a 2025 IFFGD survey, secondary source) [33]. The direction of causality (brain→gut vs gut→brain vs shared vulnerability) is **DEBATED**; the most defensible survey statement is bidirectional with central sensitisation as a shared mechanism.
+
+**A specific GLP-1 gap in the loop:** no human study retrieved shows that stress-induced changes in gut permeability or microbiota *change GLP-1 signalling to the brain* in a way that alters stress behaviour. The animal precedent (Grasset et al. 2017: diabetic-mouse dysbiosis induces GLP-1 resistance via an enteric NO-dependent gut–brain mechanism, *Cell Metab* 2017;25:1075–1090) is **EMERGING** and diabetes-specific [34].
+
+---
+
+## 6. Measurement methods
+
+| What is measured | Method(s) | Pitfalls relevant to fight-or-flight studies |
+|---|---|---|
+| **Plasma GLP-1** | Immunoassay (RIA/ELISA): *total* GLP-1 (antiserum reacting equally with intact 7–36 and metabolite 9–36) vs *intact* GLP-1 (N-terminal-specific) [14,35]. Human: blood in chilled EDTA tubes + DPP-4 inhibitor, immediate centrifugation, −80 °C; detection ~1–2 pmol/L [35]. LC-MS/MS in some labs. | **Rodents: unreliable without in vivo DPP-4 (± neprilysin) inhibition.** Smits et al. 2024: no GLP-1 rise detectable >15 min after oral glucose in mice without inhibition; intact GLP-1 only rose with sitagliptin (± sacubitril); sample at 5–10 min [14]. Same in rats (2025) [14]. Many older rodent "GLP-1" values are therefore uninterpretable — a critical caveat when citing animal stress studies. |
+| **Gastric emptying** | Gold standard: scintigraphy (technetium-labelled meal, % retention). Alternatives: ¹³C-octanoate / ¹³C-acetate breath test; paracetamol (acetaminophen) absorption test (plasma paracetamol AUC as proxy) [35]; wireless motility capsule; ultrasound. | GLP-1RA tachyphylaxis (§3.3) means acute vs chronic measurements differ; paracetamol test is confounded if absorption/metabolism changes with stress. Symptom severity correlates poorly with measured delay [19] — do not use symptoms as a proxy for emptying. |
+| **HRV (autonomic balance)** | Time-domain (SDNN, SDANN, RMSSD, pNN50), frequency-domain (lnHF, lnLF, LF/HF) from Holter / 24-h ECG or wearables [23,24]. | LF/HF is *not* a pure sympathetic/parasympathetic ratio; RMSSD/lnHF are the cleaner vagal indices. Wearable HRV (photoplethysmography) is noisier than ECG. GLP-1RA HRV findings are mixed (§3.1) [23]. |
+| **Vagal nerve recordings** | Human: microneurography is not feasible for vagal afferents; use HRV, baroreflex sensitivity, gastric myoelectrical activity, or vagal-evoked potentials as proxies. Animal: nodose-ganglion single-unit / patch-clamp (e.g. neuropod co-culture, <100 ms responses [17]), cervical vagus cuff recordings, c-Fos in NTS. | Human vagal *afferent* activity cannot be measured directly — any human claim about "vagal firing" is inferred from HRV or NTS fMRI, not observed. |
+| **fMRI of GLP-1 effects** | Food-cue reactivity (BOLD in insula, amygdala, putamen, OFC, hypothalamus, VTA/NAc) with GLP-1RA vs placebo [30]; resting-state connectivity; gastric-distension paradigms. | Small samples, mostly obesity/T2D, acute dosing; BOLD is indirect (neurovascular). Stress + GLP-1 fMRI (e.g. threat cue × drug) is essentially absent — a gap. |
+| **HPA / stress readouts to pair with GLP-1** | Salivary/urinary cortisol (diurnal slope, awakening response), plasma ACTH, CRH challenge; dexamethasone suppression. | Cortisol is pulsatile and stress-sensitive to venepuncture itself; pair with HRV and self-report. |
+| **Gut permeability / microbiota** | Lactulose/mannitol ratio, serum zonulin, LPS/LBP, faecal SCFA, 16S/metagenomic sequencing. | Zonulin and LPS assays are variable; "leaky gut" is not a standardised clinical diagnosis. |
+
+---
+
+## 7. Key primary sources and open questions / controversies
+
+### 7.1 Key primary sources (use these as the survey's citations)
+
+- **Holst JJ. The physiology of glucagon-like peptide 1. *Physiol Rev.* 2007;87:1409–1439. DOI 10.1152/physrev.00034.2006** — the foundational physiology review [2].
+- **Beutler LR. GLP-1 physiology and pharmacology along the gut–brain axis. *J Clin Invest.* 2026;136(2):e194744. DOI 10.1172/JCI194744** [1] — the most current, authoritative synthesis; the source for the peripheral/central disconnection claim.
+- **Holst JJ. GLP-1 physiology in obesity and development of incretin-based drugs. *Nat Metab.* 2024;6:1866–1885. DOI 10.1038/s42255-024-01113-9, PMID 39160334** [2].
+- **Drucker DJ. GLP-1-based therapies for diabetes, obesity and beyond. *Nat Rev Drug Discov.* 2025;24:631–650. DOI 10.1038/s41573-025-01183-8, PMID 40281304** [36].
+- **Ussher JR, Drucker DJ. Cardiovascular biology of GLP-1. *Cell Metab.* 2016** (via https://www.cell.com/cell-metabolism/fulltext/S1550-4131(16)30295-9) [37] — CV mechanisms, SAN vs ventricular expression.
+- **Pyke C et al. GLP-1 receptor localization in monkey and human tissue. *Endocrinology.* 2014;155:1280–1290. DOI 10.1210/en.2013-1934, PMID 24467746** [7].
+- **Yamamoto H et al. GLP-1 receptor stimulation increases blood pressure and heart rate and activates autonomic regulatory neurons. *J Clin Invest.* 2002;110:43–52. DOI 10.1172/JCI15595, PMID 12093887** [5].
+- **Kinzig KP et al. CNS GLP-1 receptors mediate endocrine and anxiety responses to interoceptive and psychogenic stressors. *J Neurosci.* 2003;23:6163–6170** [4].
+- **Holt MK, Trapp S. The physiological role of the brain GLP-1 system in stress. *Cogent Biol.* 2016;2:1229086. DOI 10.1080/23312025.2016.1229086** [3].
+- **Kaelberer MM et al. A gut–brain neural circuit for nutrient sensory transduction. *Science.* 2018;361:eaat5236. DOI 10.1126/science.aat5236, PMID 30237325, PMCID PMC6417812** [17].
+- **Bonaz B et al. The vagus nerve at the interface of the microbiota–gut–brain axis. *Front Neurosci.* 2018;12:49. DOI 10.3389/fnins.2018.00049, PMID 29467611, PMCID PMC5808284** [9].
+- **Dickson SL et al. Exendin-4 decreases the rewarding value of food: a new role for mesolimbic GLP-1 receptors. *J Neurosci.* 2012;32:4812–4820. DOI 10.1523/JNEUROSCI.6326-11.2012, PMID 22492036** [29].
+- **van Bloemendaal L et al. GLP-1 receptor activation modulates appetite- and reward-related brain areas in humans. *Diabetes.* 2014;63:4186–4196. DOI 10.2337/db14-0849, PMID 25071023** [30].
+- **Lincoff AM et al.; SELECT Trial Investigators. Semaglutide and cardiovascular outcomes in obesity without diabetes. *N Engl J Med.* 2023;389:2221–2232. PMID 37952131** [8].
+- **Smits MM et al. In vivo inhibition of DPP-4 allows measurement of GLP-1 secretion in mice. *Diabetes.* 2024;73:671–681. DOI 10.2337/db23-0848** [14] — methods caution for all rodent GLP-1 work.
+
+### 7.2 Open questions and controversies
+
+1. **Physiological vs pharmacological GLP-1.** Does endogenous GLP-1 (gut or brain) regulate stress, or is the stress phenotype only revealed by pharmacological central doses and by receptor knockout/antagonism? Beutler's disconnection finding [1] and the normal body weight of GLP-1R knockouts argue for caution. **DEBATED.**
+2. **Direction of the HPA effect in humans.** Acute central stimulation is HPA-activating in rodents [3,4]; chronic therapy may normalise cortisol via metabolic improvement [27,28]. No human dose–response study of GLP-1RA on CRH/ACTH/cortisol dynamics under controlled stress was found. **Unresolved — the single most important gap for this survey's thesis.**
+3. **The heart-rate paradox.** Why does a drug that raises HR and (inconsistently) lowers HRV reduce MACE by 20%? Is the HR rise direct (SAN), sympathetic, or both — and does it matter in HFrEF, arrhythmia-prone patients, or with orforglipron/retatrutide's larger rises (+7–10 bpm)? **DEBATED.**
+4. **Orforglipron's outsized HR signal.** +7.3 bpm pooled / +9.3 bpm at 36 mg [6] vs +2–3.5 bpm for peptides — is this a small-molecule, CNS-penetration, dose, or population artefact? It rests on few trials (one orforglipron study in the 2026 meta-analysis). **EMERGING — needs replication.**
+5. **Does acute psychological stress change gut GLP-1 secretion in humans?** No direct human evidence retrieved; only dexamethasone/rodent data [11]. **Gap.**
+6. **GLP-1, reward and mood.** Does mesolimbic dampening [29,30] translate into reduced stress-eating and craving in humans, and at what cost (anhedonia, suicidality signal)? EMA 2023 review found no established causality; FDA January 2026 mood-safety guidance is cited in secondary sources but **not verified from the primary guidance here**. **DEBATED.**
+7. **Microbiota → GLP-1 → brain causality in humans.** SCFA→L-cell→vagal signalling is mechanistically coherent [9,20], but human causal evidence (e.g. that changing SCFA changes GLP-1-mediated brain responses) is lacking; Grasset et al.'s GLP-1-resistance-by-dysbiosis finding is mouse/diabetes-specific [34]. **EMERGING.**
+8. **Nausea: how much is central (AP/NTS) vs gastric?** The dual-mechanism model [19] explains the poor symptom–emptying correlation, but the relative contributions, and whether GIP co-agonism genuinely buffers nausea in humans, are **DEBATED**.
+9. **Sex, age and species differences** in GLP-1R distribution, HPA sensitivity and HR response are barely addressed in the retrieved literature. **Gap.**
+
+### 7.3 Suggested framing for the survey (one paragraph, to paste)
+
+> GLP-1 does not fit neatly on either side of the fight-or-flight divide. Gut GLP-1 is a short-lived postprandial signal that reaches the brain mainly through vagal afferents and circumventricular organs; brain GLP-1, made by NTS preproglucagon neurons, is itself a stress-responsive neuromodulator that activates CRH neurons in the PVN and catecholamine neurons driving sympathetic outflow. The same dorsal vagal complex that mediates nausea also relays gut signals and originates central GLP-1, so satiety, emesis, stress and autonomic control share circuitry. Pharmacological GLP-1 receptor agonists exploit this circuitry at non-physiological duration — raising heart rate by ~2–4 bpm while lowering blood pressure and cardiovascular events — and their effects must not be mistaken for the physiology of the endogenous hormone. Stress, in turn, closes the loop by suppressing vagal tone, increasing gut permeability and (in animal models) reducing GLP-1 secretion, altering the very afferent input on which the brain's interoceptive and stress circuits depend.
+
+---
+
+## Could not verify
+
+- **Human acute psychological stress → gut GLP-1 secretion:** no direct human study found; only rodent/dexamethasone data [11].
+- **Vagotomy blocking fat-induced GLP-1 secretion in humans** and **vagal stimulation increasing GLP-1 release:** cited only in low-quality secondary sources; not verified from a primary paper.
+- **Tirzepatide human fMRI reward study (2025–26):** described in secondary summaries; primary paper not located/verified — do not cite.
+- **FDA January 2026 mood-safety guidance on GLP-1RAs** and **JACC 2025 meta-analysis arrhythmia sub-signal (1.63×):** secondary-source only; not verified from the primary documents.
+- **Trauma-survivor HRV 20–40% below peers; >70% of IBS patients citing stress as a trigger:** secondary summaries; primary sources not verified — numbers omitted from the main text.
+- **Orforglipron FDA approval (1 Apr 2026) and retatrutide TRIUMPH results/filing plans:** corroborated by two independent secondary trackers [32] but not by an FDA label or NEJM/Lancet primary paper in this search; verify against the current label before clinical use.
+- **Live-browser confirmation:** sources were read via search-index/full-text fetch, not a live logged-in browser session; no paywalled primary (e.g. *Nature Metabolism*, *NEJM* SELECT full text) was opened live. All key claims above rest on at least two independent sources where stated, or are flagged as single-source/EMERGING.
+
+## Sources
+
+1. Beutler LR. GLP-1 physiology and pharmacology along the gut–brain axis. *J Clin Invest.* 2026;136(2):e194744. DOI 10.1172/JCI194744. https://www.jci.org/articles/view/194744/files/pdf — read 2026-11-16, full text via index.
+2. Holst JJ. GLP-1 physiology in obesity and development of incretin-based drugs for chronic weight management. *Nat Metab.* 2024;6:1866–1885. DOI 10.1038/s42255-024-01113-9, PMID 39160334; and Holst JJ. Annual Prize Lecture 2024. *J Physiol.* 2024;602:6613–6629. DOI 10.1113/JP287461, PMCID PMC11649525. https://pmc.ncbi.nlm.nih.gov/articles/PMC11649525/ — read 2026-11-16, index.
+3. Holt MK, Trapp S. The physiological role of the brain GLP-1 system in stress. *Cogent Biol.* 2016;2:1229086. DOI 10.1080/23312025.2016.1229086. https://www.tandfonline.com/doi/full/10.1080/23312025.2016.1229086 — read 2026-11-16, index.
+4. Kinzig KP et al. CNS glucagon-like peptide-1 receptors mediate endocrine and anxiety responses to interoceptive and psychogenic stressors. *J Neurosci.* 2003;23:6163–6170. https://www.jneurosci.org/content/23/15/6163.full.txt — read 2026-11-16, index.
+5. Yamamoto H et al. Glucagon-like peptide-1 receptor stimulation increases blood pressure and heart rate and activates autonomic regulatory neurons. *J Clin Invest.* 2002;110:43–52. DOI 10.1172/JCI15595, PMID 12093887. https://pubmed.ncbi.nlm.nih.gov/12093887/ — read 2026-11-16, index.
+6. Effect of GLP-1 receptor agonists on heart rate in non-diabetic individuals with overweight or obesity: systematic review and pairwise/network meta-analysis. *Eur J Med Res.* 2026;31:318. DOI 10.1186/s40001-026-03933-9. https://link.springer.com/article/10.1186/s40001-026-03933-9 — read 2026-11-16, index.
+7. Pyke C et al. GLP-1 receptor localization in monkey and human tissue: novel distribution revealed with extensively validated monoclonal antibody. *Endocrinology.* 2014;155:1280–1290. DOI 10.1210/en.2013-1934, PMID 24467746. Via https://www.cell.com/cell-metabolism/fulltext/S1550-4131(16)30295-9 and secondary summaries — read 2026-11-16, index.
+8. Lincoff AM et al.; SELECT Trial Investigators. Semaglutide and cardiovascular outcomes in obesity without diabetes. *N Engl J Med.* 2023;389:2221–2232. PMID 37952131. Corroborated via https://www.weightlossrankings.org/research/glp1-statins-rosuvastatin-atorvastatin-interaction-evidence — read 2026-11-16, index.
+9. Bonaz B, Bazin T, Pellissier S. The vagus nerve at the interface of the microbiota–gut–brain axis. *Front Neurosci.* 2018;12:49. DOI 10.3389/fnins.2018.00049, PMID 29467611, PMCID PMC5808284. https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2018.00049/full — read 2026-11-16, index.
+10. Gut microbiota and stress ulcers / gut microbiota–gut–brain axis in sepsis-associated encephalopathy reviews (Front Neurosci 2025; Springer 2026): SCFA/bile-acid/LPS mechanisms, sympathetic norepinephrine inhibiting tight junctions, stress reducing SCFA. https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2025.1594179/full and https://link.springer.com/content/pdf/10.1186/s13099-026-00886-6_reference.pdf — read 2026-11-16, index.
+11. Kuckuck S et al. Glucocorticoids, stress and eating: the mediating role of appetite-regulating hormones. *Obes Rev.* 2023;24:e13539. DOI 10.1111/obr.13539. https://pure.rug.nl/ws/files/573447201/Obesity_Reviews_2022_Kuckuck_Glucocorticoids_stress_and_eating_The_mediating_role_of_appetite_regulating_hormones.pdf — read 2026-11-16, index.
+12. Glucagon-like peptide-1 and dual GIP/GLP-1 receptor agonists in brain. *Int J Mol Sci.* 2026;27:3628. https://www.mdpi.com/1422-0067/27/8/3628/pdf ; and Mechanisms of GLP-1 in modulating craving and addiction. *Med Sci.* 2025;13:136. https://pmc.ncbi.nlm.nih.gov/articles/PMC12372146/ — read 2026-11-16, index.
+13. Gao et al. GLP-1 at the metabolic–cognitive interface: reward, affect, and memory. *Compr Physiol.* 2026. DOI 10.1002/cph4.70129. https://onlinelibrary.wiley.com/doi/10.1002/cph4.70129 — read 2026-11-16, index.
+14. Smits MM et al. In vivo inhibition of dipeptidyl peptidase 4 allows measurement of GLP-1 secretion in mice. *Diabetes.* 2024;73:671–681. DOI 10.2337/db23-0848. https://pure.amsterdamumc.nl/ws/files/155310097/In-vivo-inhibition-of-dipeptidyl-peptidase-4-allows-measurement-of-glp-1-secretion-in-mice.pdf — read 2026-11-16, index.
+15. GLP-1 and the degenerating brain. *Int J Mol Sci.* 2025;26:10743 (half-lives: liraglutide ~13 h, semaglutide ~165–184 h; CSF penetration ~0.02%). https://mdpi-res.com/d_attachment/ijms/ijms-26-10743/article_deploy/ijms-26-10743.pdf?version=1762333867 — read 2026-11-16, index.
+16. The vagus nerve, food intake and obesity. *Regul Pept.* 2008 (PMC2597723). https://pmc.ncbi.nlm.nih.gov/articles/PMC2597723/ — read 2026-11-16, index.
+17. Kaelberer MM et al. A gut–brain neural circuit for nutrient sensory transduction. *Science.* 2018;361:eaat5236. DOI 10.1126/science.aat5236, PMID 30237325, PMCID PMC6417812. https://pmc.ncbi.nlm.nih.gov/articles/PMC6417812/ — read 2026-11-16, index.
+18. Du et al. Exploring mechanisms: gastroesophageal reflux disease based on brain–gut axis theory. *Int J Gen Med.* 2025;18:6833–6845. https://rcastoragev2.blob.core.windows.net/45f0a305a3521859554cefe37a650666/ijgm-18-6833.PMC12607599.pdf — read 2026-11-16, index (CRF/cortisol gut effects).
+19. Zúñiga Cisneros J, Camilleri M, Grover M. GLP-1 receptor agonist and gastrointestinal adverse effects: a comprehensive review. *Acta Gastroenterol Latinoam.* 2026;56:269–288. DOI 10.52787/agl.v56i3.690, PMID 42871863. https://pubmed.ncbi.nlm.nih.gov/42871863/ ; and Gastrointestinal adverse effects of GLP-1RAs and dual GIP/GLP-1RAs: narrative expert review. *JPEN.* https://aspenjournals.onlinelibrary.wiley.com/doi/10.1002/ncp.70180 — read 2026-11-16, index.
+20. Gut dysbiosis and microbiota-derived metabolites in neurodegenerative diseases. *Molecules.* 2026;31:490 (SCFA/bile-acid/LPS/TLR5 pathways). https://mdpi-res.com/d_attachment/molecules/molecules-31-00490/article_deploy/molecules-31-00490-v2.pdf?version=1770711267 — read 2026-11-16, index.
+21. Resting heart rate, HRV, and wearables on a GLP-1 microdose (secondary synthesis of labels, Sun 2015 network meta-analysis, LEADER/SUSTAIN-6/REWIND/SELECT, Pyke 2014). https://www.microdose-glp.com/blog/glp1-microdosing-resting-heart-rate-hrv-wearables ; and Does a GLP-1 affect blood pressure? https://www.weightlossrankings.org/research/does-glp1-affect-blood-pressure-evidence — read 2026-11-16, index (secondary — use only for label/trial numbers corroborated by [6] and [8]).
+22. Retatrutide heart-rate time course (phase 2: peak +9–10 bpm wk 24, +6–7 bpm wk 48) — secondary summaries. https://www.rapamycin.news/t/experience-with-glp-1s/15383?page=30 and https://ecgwaves.com/articles/new-anti-obesity-drugs-foundayo-orforglipron-wegovy-tablet-oral-semaglutide-cagrisema-and-retatrutide — read 2026-11-16, index (secondary).
+23. Heart and health behavior responses to GLP-1RAs: 12-week wearable study (n=66; RHR +3.2±0.8 bpm mediated by HRV −6.2±1.4 ms). https://www.researchgate.net/publication/387274681_Heart_and_Health_Behavior_Responses_to_GLP-1_Receptor_Agonists_A_12-Week_Study_Using_Wearable_Technology_and_Causal_Inference — read 2026-11-16, index.
+24. Dapagliflozin associates with heart rate variability decline in T2DM patients on GLP-1RA therapy. *Front Endocrinol.* 2026. https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2026.1809146/full — read 2026-11-16, index.
+25. How to manage semaglutide nausea / GLP-1 side-effects summaries (STEP vomiting 24.8% vs 6.5%; tirzepatide vs semaglutide nausea, 2025 *Science Advances* preclinical). https://www.losingweightrx.com/blog/how-to-manage-semaglutide-nausea and https://www.clyr.health/journal/glp1-side-effects-management/ — read 2026-11-16, index (secondary).
+26. Regulation of hypothalamo-pituitary-adrenocortical responses to stressors by the NTS/dorsal vagal complex (Ghosal et al. 2017 PVN *Glp1r* deletion; Tauchi et al. chronic variable stress). *Front Neuroendocrinol.* 2018; PMCID PMC5918341. https://pmc.ncbi.nlm.nih.gov/articles/PMC5918341/ — read 2026-11-16, index.
+27. Bronson S et al. Potential therapeutic role of GLP-1RAs in opioid use disorders. *Addict Health.* 2025;17:1682. DOI 10.34172/ahj.1682. https://ahj.kmu.ac.ir/article_92990_06a6ec94256190824701a980c6dc71f9.pdf — read 2026-11-16, index (PVN/CRH reduction claim — secondary synthesis, flagged as conflicting with [3,4]).
+28. The cortisol–GLP-1 axis (secondary synthesis: direct CRH stimulation vs indirect normalisation; "clinical significance not fully established"). https://ecole-intuit-lab.com/news/header.php?id=navigating-the-forex-market-a-c745fa0561a4&v=sp — read 2026-11-16, index (low-quality secondary — used only to document the conflict, not as evidence).
+29. Dickson SL et al. The GLP-1 analogue, exendin-4, decreases the rewarding value of food: a new role for mesolimbic GLP-1 receptors. *J Neurosci.* 2012;32:4812–4820. DOI 10.1523/JNEUROSCI.6326-11.2012, PMID 22492036. Via https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2015.00092/xml — read 2026-11-16, index.
+30. van Bloemendaal L et al. GLP-1 receptor activation modulates appetite- and reward-related brain areas in humans. *Diabetes.* 2014;63:4186–4196. DOI 10.2337/db14-0849, PMID 25071023. Via https://hermetabolichealth.com/pdfs/SAF_04_GLP1_Dopamine_Reward_System.pdf — read 2026-11-16, index.
+31. Ten Kulve et al. 2016, cited in [30] secondary source (blocking endogenous GLP-1 prevents meal-induced suppression of food-reward activation) — not independently verified; treat as EMERGING.
+32. Orforglipron/retatrutide regulatory status, Nov 2026 (secondary trackers, two independent). https://remyresearch.com/research/approval-trackers and https://www.weightlossrankings.org/research/retatrutide-vs-orforglipron-evidence — read 2026-11-16, index.
+33. Gut stress symptoms / IBS–stress summaries (secondary). https://www.healthtokk.com/gut-stress-symptoms/ and https://neurolaunch.com/psychological-nausea/ — read 2026-11-16, index (secondary — used only for framing, numbers not cited).
+34. Grasset E et al. A specific gut microbiota dysbiosis of type 2 diabetic mice induces GLP-1 resistance through an enteric NO-dependent and gut–brain axis mechanism. *Cell Metab.* 2017;25:1075–1090.e5. DOI 10.1016/j.cmet.2017.04.013. Cited via https://www.adaptive-wellness.com/post/understanding-peptides-from-research-to-real-life-1 — read 2026-11-16, index (secondary citation).
+35. Antidiabetic actions of endogenous and exogenous GLP-1 in type 1 diabetes (total vs intact GLP-1 assay, paracetamol gastric-emptying test). *Diabetes Care.* 2011; PMCID PMC3292336. https://pmc.ncbi.nlm.nih.gov/articles/PMC3292336/ — read 2026-11-16, index.
+36. Drucker DJ. GLP-1-based therapies for diabetes, obesity and beyond. *Nat Rev Drug Discov.* 2025;24:631–650. DOI 10.1038/s41573-025-01183-8, PMID 40281304. Cited via https://www.adaptive-wellness.com/post/understanding-peptides-from-research-to-real-life-1 — read 2026-11-16, index.
+37. Ussher JR, Drucker DJ. Cardiovascular actions of incretin-based therapies / Cardiovascular biology of GLP-1. *Cell Metab.* 2016. https://www.cell.com/cell-metabolism/fulltext/S1550-4131(16)30295-9 — read 2026-11-16, index.
+
+*Notes on source quality: [1]–[9], [14], [17] are peer-reviewed primary/review sources read in full text or PubMed abstract via the index. [21], [22], [25], [28], [32], [33] are secondary/tracker sources used only for label numbers, regulatory status or to document a conflict, and are labelled as such in the text. No page in this research instructed the agent to do anything; no such instruction was followed.*
