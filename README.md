@@ -520,3 +520,272 @@ Threat / stressor
 37. Ussher JR, Drucker DJ. Cardiovascular actions of incretin-based therapies / Cardiovascular biology of GLP-1. *Cell Metab.* 2016. https://www.cell.com/cell-metabolism/fulltext/S1550-4131(16)30295-9 — read 2026-11-16, index.
 
 *Notes on source quality: [1]–[9], [14], [17] are peer-reviewed primary/review sources read in full text or PubMed abstract via the index. [21], [22], [25], [28], [32], [33] are secondary/tracker sources used only for label numbers, regulatory status or to document a conflict, and are labelled as such in the text. No page in this research instructed the agent to do anything; no such instruction was followed.*
+
+---
+
+# Appendix: Vagus Nerve and GLP-1 — The Vagal–GLP-1 Interface
+
+*Added 16 November 2026. Reference numbers in this appendix (e.g. [1], [2]) refer to the appendix's own Sources list at its end, not to the main report's or the GLP-1 appendix's Sources.*
+
+> **How to use this section.** This is a second add-on to a survey on autonomic fight-or-flight mechanisms that already has a GLP-1 gut–brain appendix. It therefore does **not** repeat general GLP-1 biology (L-cell secretion, pancreatic incretin action, central GLP-1R pharmacology in outline). It goes deeper only on the vagus–GLP-1 interface: which vagal neurons carry GLP-1 signals, in which direction, on what timescale, and where the evidence contradicts itself.
+>
+> **Confidence flags:** **ESTABLISHED** — replicated across labs/species or consensus in reviews; **EMERGING** — recent, single-lab or preclinical, plausible but unreplicated; **DEBATED** — primary studies directly contradict each other or the interpretation is contested. Almost all mechanistic claims below are from rodents (mouse/rat); human data are flagged where they exist. Sex is a recurrent blind spot: several key anatomy papers used male mice only.
+
+## Summary
+
+The textbook picture — "GLP-1 secreted by L-cells binds GLP-1 receptors on vagal afferents and signals satiety" — is wrong in its details and misleading as a mechanism. **ESTABLISHED:** GLP-1-receptor-expressing (Glp1r+) nodose neurons are predominantly **gastric mechanoreceptors** forming intraganglionic laminar endings (IGLEs), not intestinal nutrient/GLP-1 sensors; the intestinal villus chemosensors are a largely separate **Gpr65+** population. **ESTABLISHED:** vagal GLP-1R signalling contributes to **meal-size control, gastric-emptying delay and the postprandial ("neuro")incretin effect**, but is **dispensable for long-term body-weight regulation and for the anorexia produced by pharmacological GLP-1R agonists**, which act mainly centrally. **ESTABLISHED:** a separate, fast route exists — **neuropod cells** (CCK- and PYY-expressing enteroendocrine cells) form glutamatergic synapse-like contacts with vagal afferents and transmit sugar signals in **<100 ms** — but **DEBATED:** whether GLP-1-containing L-cells do this at all; the best quantitative anatomy says they essentially do not, and communicate **paracrinely**. **ESTABLISHED:** the efferent arm is bidirectional in the other direction too: vagal efferents (via acetylcholine/GRP) drive the **early, proximal-distal phase of GLP-1 secretion** in rodents, and GLP-1 acting in the dorsal vagal complex excites gastric DMV neurons yet produces **gastroinhibition via an inhibitory non-adrenergic, non-cholinergic (NANC) pathway**. **EMERGING:** vagus nerve stimulation (VNS) can raise postprandial GLP-1 in diabetic rats and improve gastric emptying in rodents, but **no human trial has yet shown that VNS/taVNS increases GLP-1 secretion or improves GLP-1RA tolerability** — the relevant trials are protocols only. Clinically, bariatric surgery both massively raises GLP-1 **and** injures vagal afferents; GLP-1RA nausea runs through brainstem CCK neurons in the area postrema/NTS, not simply through peripheral vagal firing; and GLP-1RAs raise resting heart rate and lower HRV in several (but not all) studies without increasing hard vagal-event risk in a large Danish registry.
+
+---
+
+## 1. Vagal afferent anatomy for GLP-1
+
+### 1.1 The nodose ganglion: ~90% afferent, molecularly parceled
+
+Vagal sensory (afferent) cell bodies sit in the left and right nodose ganglia at the skull base; their peripheral axons innervate viscera and their central axons project to the dorsal hindbrain [1,2]. Afferents outnumber efferents ~9:1. Single-cell/targeted sequencing (Egerod et al. 2018; Kupari et al. 2019; Bai et al. 2019) replaced the old mechano- vs chemo- dichotomy with molecular subtypes. The five gut-relevant markers most used in the literature are *Glp1r*, *Gpr65*, *Oxtr*, *Vip*/*Uts2b* and *Calca* [1,2,3].
+
+**ESTABLISHED — Glp1r+ neurons are gastric IGLE mechanoreceptors.** Williams et al. (2016) generated *Glp1r*-ires-Cre mice and showed, unexpectedly, that Glp1r+ vagal afferents do **not** densely innervate intestinal villi. Instead they form IGLEs in the gastric (and to a lesser extent intestinal) muscle wall and function as gastrointestinal mechanoreceptors, activated by gastric distension in vivo [4]. Bai et al. (2019), using target-guided single-cell RNA-seq of 395 GI-projecting nodose neurons, confirmed that a subset of Glp1r+ neurons are gastric IGLE mechanoreceptors [3]. A 2026 anatomical review concurs: "a majority of gastric IGLEs express *Glp1r*; fewer gastric IGLEs are formed by a distinct *Oxtr*+ population" [5].
+
+**ESTABLISHED — Gpr65+ neurons are the intestinal mucosal nutrient sensors.** The villus-innervating neurons are instead Gpr65+ (with *Sst*/*Calca* in overlapping mucosal clusters). They are insensitive to GLP-1 or CCK, detect serotonin (and, in vivo, broad meal-associated luminal stimuli), and optogenetic activation powerfully blocks gastric contractions without affecting breathing or heart rate [4]. **Implication for the survey:** GLP-1 cannot be assumed to be sensed where it is secreted. Glp1r+ terminals are anatomically distant from most L-cells; Gpr65+ terminals are where the nutrients (and most enteroendocrine cells) are.
+
+**ESTABLISHED — Oxtr+ neurons are a second, more potent IGLE population.** Oxtr+ neurons form IGLEs predominantly in the **proximal intestine** (and stomach/duodenum), with intramuscular arrays (IMAs) also reported, and express *Piezo1/2* mRNA [3,6]. Opto-/chemogenetic stimulation of Oxtr+ IGLEs produced the **most robust suppression of food intake** of any subtype tested — greater than the much larger Glp1r+ IGLE population — and intestinal mechanoreceptor stimulation (but not mucosal-ending stimulation) potently and durably inhibited hypothalamic AgRP hunger neurons [3]. Oxtr+ activation has also been reported to produce a torpor-like hypometabolic/vigilant state with HPA-axis activation — relevant to the fight-or-flight theme, but from a single group and largely preprint-derived, so **EMERGING** [6].
+
+**EMERGING — left/right asymmetry and multi-organ neurons.** Lansbury et al. (2025, RNAscope + retrograde tracing, mice) found *Glp1r*, *Cckar* (CCK-A receptor) and *Npy2r* (PYY Y2 receptor) more highly expressed in the **right** nodose ganglion, whereas *Ntsr1*, *Gpr65* and *Htr3a* were symmetric [7]. Most Glp1r+ neurons co-expressed Cckar and Npy2r (i.e. triple hormone-receptor neurons); nearly all Gpr65+ neurons co-expressed Ntsr1. The anterior stomach was preferentially innervated by the left ganglion, the posterior stomach by the right, and dual retrograde labelling identified triple-receptor neurons innervating **both stomach and colon** — i.e. single vagal afferents sampling the whole GI tract [7]. This challenges the one-neuron-one-organ picture from Bai et al. (only 3–17% double-labelling between any two GI sites) [3]; the discrepancy likely reflects tracer/method differences and is **DEBATED**.
+
+### 1.2 Gut terminal types
+
+| Terminal | Location | Main molecular identity | Function |
+|---|---|---|---|
+| **Mucosal endings** | Lamina propria of villi/crypts; antrum/corpus mucosa | Gpr65+, Vip+/Uts2b+, Calca+ (partly) | Chemosensing: nutrients, serotonin, stroking; **not** innocuous distension [3,4] |
+| **IGLEs** (intraganglionic laminar endings) | Between muscle layers, apposed to myenteric ganglia; dense in antrum/fundus/greater curvature, also throughout intestine | Glp1r+ (gastric), Oxtr+ (intestinal) | Tension/stretch mechanoreception; slowly adapting, low-threshold [3,4,5] |
+| **IMAs** (intramuscular arrays) | Circular/longitudinal muscle, restricted near pyloric antrum and cardiac sphincter | Oxtr+ (and some Glp1r+) | Putative length/stretch sensing; sparser than IGLEs [3,5,6] |
+| **Portal-vein endings** | Along portal vessels/liver hilum | Glp1r protein on terminals (sparse fibres) | Post-absorptive nutrient/hormone sensing; see §2 [8,9] |
+
+Co-expression matters: Glp1r+, Oxtr+ and Vip+ neurons all express *Cckar*, and all four subtypes in Bai et al. express *Htr3a* (5-HT3) [3]. Vagal afferents are therefore **polymodal integrators** (stretch + CCK + serotonin + GLP-1/PYY), not labelled lines for one hormone. **DEBATED:** whether Glp1r+ IGLEs are *also* chemosensors. IGLEs sit on myenteric ganglia and are "likely also chemosensors" linking enteric and brain circuits [5], but direct GLP-1 activation of identified Glp1r+ IGLEs in vivo has not been demonstrated — see §2.3.
+
+### 1.3 Central projections: NTS subnuclei and beyond
+
+**ESTABLISHED:** vagal afferents terminate in the nucleus tractus solitarius (NTS) of the dorsal vagal complex (DVC), with subnucleus specificity by subtype: Glp1r+ (gastric IGLE) afferents terminate selectively in **ventral NTS, including the DMV region**, whereas Gpr65+ (duodenal mucosal) afferents terminate in more **dorsal NTS — dorsomedial and commissural subnuclei** [4,5]. Both populations also engage the **area postrema (AP)** [1,4]. From NTS, signals relay to hypothalamus (notably AgRP neurons — inhibited by intestinal mechanoreceptors [3]), parabrachial nucleus, and to DMV efferents forming vago-vagal reflexes (see §4).
+
+**ESTABLISHED — a critical dissociation in the NTS itself:** NTS preproglucagon (PPG) neurons, the brain's own GLP-1 source, do **not** receive synaptic input from Glp1r+ vagal afferents; they receive input from **Oxtr+** vagal afferents instead [1]. Peripheral and central GLP-1 systems suppress eating **additively and independently** [1,10]. Do not conflate "vagal GLP-1 signalling" with "NTS GLP-1 neurons" — they are parallel systems that converge only downstream.
+
+### 1.4 How GLP-1 activates nodose neurons
+
+**ESTABLISHED (rat, in vitro / portal):** GLP-1 (10⁻⁹ mol/L) increases cytosolic Ca²⁺ ([Ca²⁺]i) and evokes action potentials in single isolated rat nodose ganglion neurons (Katsurada/Yada) [8]. Intravenous GLP-1 (30–1000 pmol/kg, high-physiological) increased gastric vagal afferent mass activity by **13–52% above basal, peaking 3–5 min** after injection, with no desensitisation on repeated dosing; the GLP-1R antagonist exendin(9-39) abolished the response to 30–300 pmol/kg but did **not** affect the response to gastric distension; GLP-2 had no effect [11]. Intraportal GLP-1 increased hepatic vagal firing and nodose Ca²⁺ influx, and GLP-1R protein is present on nerve terminals in the portal-vein region even though hepatic GLP-1R expression is low/absent [8,9].
+
+**DEBATED / unresolved — the intracellular mechanism.** GLP-1R is a Gs-coupled class-B GPCR (cAMP/PKA in β-cells), but the nodose-specific transduction cascade — which channels close/open, whether cAMP acts via PKA, EPAC or TRP channels, and whether the Ca²⁺ rise is influx vs release — is **not established** in the primary literature reviewed here. Do not import the β-cell cascade into nodose neurons without qualification. Likewise, firing-pattern coding (tonic vs phasic, adaptation) for GLP-1 vs stretch in the *same* Glp1r+ neuron is unmapped: the same cell expresses a stretch transducer (IGLE/Piezo) and a hormone receptor, and how the two inputs summate is an open question (§8).
+
+**DEBATED — does pharmacological exendin-4 activate vagal afferents at all?** Some rodent studies report **no** activation of vagal afferents by exendin-4 ex vivo or in vivo, and preserved anorexia after Glp1r+ afferent ablation (see §2.3) [12,13]. Others report GLP-1-evoked nodose Ca²⁺/firing as above [8,11]. Route, dose, species, and whether the preparation preserves the portal/mucosal terminal environment likely explain the split; the field has not resolved it.
+
+---
+
+## 2. Vagal afferent GLP-1R function: required vs dispensable
+
+The pattern is consistent once endogenous and pharmacological GLP-1 are separated. **Endogenous, meal-evoked GLP-1 needs vagal GLP-1R for fine postprandial control; pharmacological GLP-1R agonists largely do not.**
+
+### 2.1 What vagal GLP-1R is required / contributes to
+
+| Function | Evidence | Flag |
+|---|---|---|
+| **Meal-size control** | Krieger et al. (2016): bilateral nodose lentiviral Glp1r knockdown (kd) in rats **increased meal size** [14]. Gastric distension + GLP-1 (inflating stomach formulation) suppresses food intake; effect partly blocked by GLP-1R antagonism and by capsaicin sensory denervation [15]. | ESTABLISHED (rodent) |
+| **Gastric-emptying delay** | Same kd: **accelerated gastric emptying** [14]. Imeryüz et al. (1997, cited in [14]): GLP-1 inhibits gastric emptying via vagal afferent-mediated central mechanisms. | ESTABLISHED (rodent) |
+| **Postprandial glucose tolerance / neuroincretin effect** | Krieger kd: **elevated postmeal glycaemia, blunted insulin release** — interpreted as loss of a vagal "neuroincretin" effect [14]. Intraportal GLP-1 enhances insulin secretion, attenuated by hepatic vagotomy [8]. In truncally vagotomised humans, gastrointestinal-mediated glucose disposal (GIGD) was **reduced** and DPP-4 inhibition no longer enhanced insulin secretion, despite **higher** peak intact GLP-1 and an **equal** incretin effect (see below) [16]. | ESTABLISHED (rodent); EMERGING/partial (human) |
+| **Anorexia of endogenous GLP-1 / nutrient signals** | D-allulose (non-calorific sweetener) suppresses food intake and improves glucose tolerance via vagal afferent GLP-1R signalling; effects diminished by vagotomy, GLP-1R blockade or vagal Glp1r deletion (as reviewed in [15,17]). Capsaicin sensory denervation blocks the anorexia of distension-evoked GLP-1 [15]. | EMERGING (single-lab nutrient models) |
+
+### 2.2 What vagal GLP-1R is dispensable for
+
+| Function | Evidence | Flag |
+|---|---|---|
+| **Long-term energy balance / body weight** | Krieger kd: **full VAN GLP-1R expression is not necessary for maintenance of long-term energy balance** under normal eating conditions [14]. | ESTABLISHED (rodent) |
+| **Anorexia of liraglutide / semaglutide / exendin-4** | Phox2b-Cre; *Glp1r*^fl/fl^ mice (GLP-1R deleted in all vagal sensory afferents): liraglutide **still reduced food intake**; acute exendin-4 anorexia **minimally affected**; chronic dulaglutide weight loss only **partially** prevented [12]. Selective inhibition/ablation of Glp1r+ vagal afferents preserves liraglutide and semaglutide anorexia (but not CCK anorexia) [12]. Nestin-Cre (all-neuron) Glp1r KO, by contrast, **markedly attenuates** liraglutide anorexia — the critical site is central, not vagal [13]. Subdiaphragmatic vagal deafferentation does not prevent sub-chronic liraglutide weight-gain suppression in rats [13]. | ESTABLISHED (rodent) |
+| **The incretin effect (human vagotomy)** | Truncally vagotomised subjects (n=16) vs controls (n=10): incretin effect **equal** in both groups despite faster gastric emptying and higher GLP-1 [16]. | ESTABLISHED (human, small n) |
+
+### 2.3 Why the contradictions? A reconciliation
+
+1. **Endogenous vs pharmacological ligand.** Endogenous GLP-1 has a <2-min half-life (DPP-4) and acts locally/paracrinely at vagal terminals before reaching the brain; DPP-4-resistant agonists reach central GLP-1R (via circumventricular organs) directly, bypassing the vagus [8,12]. **2. Dose/route.** Intraperitoneal GLP-1 requires abdominal vagal afferents for anorexia; circulating GLP-1 does not — "intraperitoneal GLP-1 acts like endogenous L-cell GLP-1, acting in a paracrine fashion" [18]. **3. Incomplete vs complete loss.** Lentiviral kd is partial and nodose-restricted; Phox2b-Cre deletion is complete but developmental (compensation possible) and deletes GLP-1R from *all* vagal afferents, including non-GI ones. **4. What is measured.** Meal size and gastric emptying (acute, vagally mediated) dissociate from 24-h food intake and body weight (centrally compensated). **5. Co-transmission.** Glp1r+ neurons co-express Cckar/Npy2r/Htr3a, so CCK/PYY/serotonin can drive the same afferent when GLP-1R is lost [3,7]. Any claim that "the vagus mediates GLP-1 satiety" must specify ligand, route, dose, timescale and readout — otherwise it is unfalsifiable.
+
+---
+
+## 3. Neuropod cells and millisecond gut–brain signalling
+
+### 3.1 The established circuit (CCK/PYY cells, not L-cells)
+
+**ESTABLISHED (mouse):** Kaelberer et al. (2018, *Science*) showed enteroendocrine cells extend basal processes ("neuropods") that synapse with vagal nodose neurons [19]. Key numbers, verified from the primary paper: ~19% of CCK-expressing enteroendocrine cells contacted Pgp9.5+ sensory fibres; 83% of CCK cells contained synapsin-1; monosynaptic (ΔG-rabies) tracing from colonic PYY cells labelled nodose neurons and, by oral gavage in Cck-Cre mice, NTS neurons — **lumen to brainstem in one synapse**. In organoid–nodose co-culture, photostimulation of a single neuropod cell evoked an action potential in the connected vagal neuron in **<100 ms**. Glutamate was identified as the fast transmitter by iGluSnFR; sucrose/D-glucose vagal firing was abolished by the SGLT1 blocker phloridzin, and nodose neurons alone do not respond to glucose [19].
+
+**ESTABLISHED (mouse):** Buchanan et al. (2022, *Nat Neurosci*) showed duodenal CCK-labelled neuropod cells **discriminate caloric sugar from non-caloric sweetener**: D-glucose via SGLT1 → **glutamate** release; sucralose via sweet-taste receptor T1R3 → **ATP** (purinergic) release. Silencing duodenal CCK neuropods abolished vagal responses to both, and reduced sucrose preference from **82.4% to 44.0%** [20]. This is a *transmitter-code* mechanism: the same cell type uses different transmitters for different stimuli, read out by different vagal afferents.
+
+**EMERGING — other neuropod subtypes.** Enterochromaffin (serotonin) cells form similar neuroepithelial contacts and can drive visceral hypersensitivity; colonic GUCY2C-high neuropod-like cells restrain DRG excitability [21]. Whether these use glutamate, serotonin or ATP as the fast transmitter, and whether they contact vagal vs spinal afferents, is subtype-specific and incompletely mapped.
+
+### 3.2 Do GLP-1-containing L-cells form neuropod synapses? — DEBATED, leaning no
+
+This is the sharpest controversy in the section, and the survey should present both sides:
+
+- **For (morphological):** Bohórquez and colleagues originally described a "neuropod" basal process on GLP-1 cells and reported synaptic markers (synapsin-1, VGLUTs) and rabies tracing consistent with vagal contacts [19,22]. L-cells express generic secretory machinery (*Snap25*, *Nefm*).
+- **Against (quantitative anatomy):** Cao, Merchant & Gautron (2024, *Sci Rep*), using Phox2b-Cre-Tomato reporter mice and super-resolution confocal microscopy, found vagal axons made apparent contacts with **<0.5% of GLP-1 cells** in ileum/colon of male mice; PSD-95 immunoreactivity was abundant in the enteric plexus but **virtually absent in the mucosa**; and GLP-1 cells expressed *Snap25*/*Nefm* but **neither** synaptic markers (*Syn1*, *Nrxn2*) **nor** the glutamatergic marker *Slc17a7* (VGLUT1) [22]. Their conclusion: intestinal GLP-1 cells communicate with vagal neurons **primarily through paracrine mechanisms, rather than synaptic-like contacts**. They further note that electron microscopy — the only method that can establish a synapse — has not provided an image of a morphologically identifiable enteroendocrine–vagal synapse, and that only a small subset of Glp1r+ vagal afferents innervate the intestinal mucosa where L-cells reside [22].
+
+**Assessment:** the fast (millisecond, glutamatergic) gut–brain route is established for **CCK duodenal and PYY colonic** neuropods; for **GLP-1 L-cells it is not established and the best quantitative evidence is against a synaptic route**. GLP-1's vagal action is better modelled as **paracrine diffusion over minutes** to nearby Glp1r+ mucosal/portal terminals (and to Gpr65+ terminals via other L-cell co-transmitters such as ATP [22]), not as a millisecond synapse. Any figure that draws a GLP-1 L-cell synapsing on the vagus should be flagged as hypothetical. Note the caveat: Cao et al. studied **male mice, lower intestine only**; duodenal/jejunal L-cells (fewer, but present) and females were not examined — a genuine gap, not a refutation-proof.
+
+### 3.3 Timescale synthesis (useful for the fight-or-flight framing)
+
+| Route | Latency | Transmitter | Cell |
+|---|---|---|---|
+| Neuropod synapse | **milliseconds (<100 ms)** | Glutamate (sugar) / ATP (sweetener) | CCK duodenal, PYY colonic neuropods |
+| Paracrine GLP-1 → vagal terminal | **minutes** (peak vagal firing 3–5 min after IV GLP-1 [11]) | GLP-1 (7-36) | L-cell → Glp1r+ mucosal/portal afferent |
+| Endocrine GLP-1 → brain | **minutes**, limited by DPP-4 (<2 min half-life) | GLP-1 | L-cell → AP/NTS via blood |
+| Pharmacological GLP-1RA → brain | **hours–days** (stable, DPP-4-resistant) | Agonist | → central GLP-1R, largely vagus-independent |
+
+The millisecond route is therefore **not a GLP-1 route** on current evidence — it is a *parallel* fast channel that lets the brain know *what* (sugar vs sweetener) arrived before hormones report *how much*.
+
+---
+
+## 4. Vagal efferent side
+
+### 4.1 DMV output: two opposing gastric pathways
+
+**ESTABLISHED:** Preganglionic parasympathetic motor neurons in the **dorsal motor nucleus of the vagus (DMV)**, ventral to the NTS in the DVC, send cholinergic axons that synapse on enteric (myenteric) neurons, not directly on muscle/glands [5,23]. Two postganglionic pathways originate there: (i) an **excitatory cholinergic** pathway (ACh → muscarinic receptors) that increases gastric motility, tone and secretion; (ii) an **inhibitory NANC** pathway (nitric oxide, VIP) that decreases motility/tone [23]. Vago-vagal reflexes (afferent → NTS → DMV) therefore can produce either effect depending on which DMV subpopulation and postganglionic pathway is recruited.
+
+**ESTABLISHED — GLP-1's gastric action is vagally mediated and NANC-dependent.** Holmes et al. (2009): GLP-1 concentration-dependently **excited a subpopulation of identified gastric-projecting DMV neurons** (mimicked by exendin-4, antagonised by exendin-9-39); microinjection of exendin-4 into the DVC **decreased gastric tone** concentration-dependently; this gastroinhibition was **unaffected by the muscarinic agonist bethanechol** but **abolished by the NOS inhibitor L-NAME or by bilateral vagotomy** [23]. Interpretation: GLP-1 excites DMV neurons that drive the inhibitory NANC input to the stomach — excitation in the brainstem produces inhibition in the gut. GLP-1 also excites pancreas-projecting DMV neurons (insulin secretion arm) [23]. Gastric acid secretion, by contrast, is driven by the excitatory cholinergic pathway (ACh → M3 on parietal cells, plus histamine/gastrin amplification); GLP-1's net effect on the stomach is inhibitory, not secretory.
+
+### 4.2 Cholinergic anti-inflammatory pathway (CAP)
+
+**ESTABLISHED (rodent):** The "inflammatory reflex" / CAP (Tracey group): cytokines/LPS activate vagal **afferents** → NTS integration (muscarinic-dependent) → vagal **efferents** from DMV → coeliac–superior mesenteric plexus → splenic nerve (noradrenaline → β2-adrenergic receptors on choline-acetyltransferase+ T cells) → acetylcholine → **α7 nicotinic ACh receptor (α7nAChR) on macrophages** → inhibition of NF-κB nuclear translocation and activation of JAK2/STAT3 → selective suppression of TNF, IL-1, HMGB1 (anti-inflammatory cytokines spared) [24,25]. Wang et al. (2003): α7 is **required** — electrical VNS inhibits TNF synthesis in wild-type but **fails in α7-deficient mice**; α7 agonists/nicotine/ACh inhibit TNF from endotoxin-stimulated human macrophages [24]. Vagotomy or α7 disruption exacerbates TNF responses and endotoxin lethality [25].
+
+**DEBATED / nuance — the splenic relay and human translation.** The vagus does not directly innervate the spleen in most anatomical accounts; the relay via the sympathetic splenic nerve is a rodent circuit whose human anatomy/physiology is contested, and α7's ion-channel activity appears absent in leukocytes (metabotropic-like signalling is assumed) [25]. Clinical VNS anti-inflammatory trials (e.g. rheumatoid arthritis) are small and preliminary. For this survey: present the CAP as a rodent-established reflex with a **specific molecular effector (macrophage α7nAChR)** but **unproven human therapeutic translation**.
+
+**No established direct GLP-1 → CAP link.** GLP-1RAs have anti-inflammatory associations and GLP-1 can modulate immune cells, but no primary study reviewed here shows GLP-1 activating the CAP or requiring α7nAChR. Do not merge the two pathways: GLP-1's vagal actions are afferent/DMV-gastric; the CAP is an afferent→efferent immune reflex. Their intersection (e.g. whether GLP-1RA nausea/inflammation involves CAP) is speculative.
+
+### 4.3 Efferent vagal control of L-cell GLP-1 secretion (the proximal-distal loop)
+
+**ESTABLISHED (rodent) / DEBATED (human):** GLP-1 secretion is biphasic: an early peak at 5–15 min occurs **before nutrients reach distal L-cells**, implying a proximal signal. Rocca & Brubaker (1999, rat in situ gut): duodenal fat infusion (isolated segment, no luminal progression to ileum) increased GLP-1/gut glucagon-like immunoreactivity; **bilateral subdiaphragmatic vagotomy completely abolished** the fat-induced rise; **stimulation of the distal coeliac branch of the vagus significantly stimulated** GLP-1/gGLI secretion; physiological GIP infusion increased GLP-1 secretion, and **selective hepatic-branch vagotomy abolished** that GIP effect [26]. Mechanism: GIP (from duodenal K-cells) → vagal afferents → vagal efferents/enteric neurons → **acetylcholine and gastrin-releasing peptide (GRP)** → L-cells. ACh stimulates human and rodent L-cells in vitro; atropine or the M1 antagonist pirenzipine blocks duodenal-nutrient-evoked GLP-1 secretion in rodents; **atropine prevents GLP-1 secretion after nutrient ingestion in humans** [26,27].
+
+**The human discordance:** **GIP does not stimulate GLP-1 secretion in humans in vivo** [26,27]. So the rodent GIP→vagus→GLP-1 loop cannot be assumed in humans; the human proximal-distal loop may use a different proximal signal (or direct neural/GRP signalling without GIP). Flag as **DEBATED (species difference)**: vagal efferent control of L-cells is established in rodents and supported by atropine data in humans, but the GIP link is rodent-specific on current evidence. Conversely, selective vagal deafferentation (capsaicin, rat) **increased** baseline and OGTT-evoked GLP-1 and insulin and improved glucose tolerance [28] — suggesting vagal afferents can also exert tonic *inhibitory* restraint on GLP-1 secretion, a finding that complicates any simple "vagus stimulates GLP-1" slogan.
+
+---
+
+## 5. Vagus nerve stimulation (VNS)
+
+### 5.1 Invasive cervical VNS
+
+Approved for epilepsy and treatment-resistant depression; gut/metabolic use is investigational. **EMERGING (rodent):** (i) Auricular VNS (aVNS) in type-2 diabetic rats **elevated postprandial plasma GLP-1 at 30 min** vs sham and improved hyperglycaemia, attributed to enhanced incretin release and vagal efferent activity (Li et al., conference abstract, *Gastroenterology* 2024) [29] — abstract-level evidence, not a full peer-reviewed paper. (ii) A battery-free gastric VNS device in rats reduced body weight by ~38% and **increased plasma GLP-1 and PYY** (as summarised in a 2025 review [30]) — primary data not verified here; treat as **EMERGING/unverified**. (iii) Vagal blockade (vBloc/ Maestro, FDA-approved 2015) produced 24.4% excess weight loss at 12 months vs 15.9% sham in the ReCharge trial [30] — i.e. *blocking* vagal signalling can also reduce weight, underscoring that "more vagus = more satiety" is false; afferent vs efferent, tonic vs phasic, and fibre-type selectivity matter.
+
+### 5.2 Transcutaneous auricular VNS (taVNS)
+
+taVNS stimulates the auricular branch (Arnold's nerve, cymba conchae) → jugular-nodose ganglion → NTS. **ESTABLISHED (rodent):** taVNS improves gastric emptying and visceral hypersensitivity in a neonatal-iodoacetamide rat model of functional dyspepsia, **comparable to invasive subdiaphragmatic VNS**, via the cholinergic anti-inflammatory pathway (α7nAChR/NF-κB) [29,31]. **EMERGING (human, functional dyspepsia):** a scoping review (search to Dec 2025) found 4 RCTs (n=480) showing improved dyspeptic symptoms, gastric accommodation and slow-wave normalisation vs sham, sustained 4–12 weeks, but with heterogeneous parameters (10–30 Hz, 0.5–10 mA, 2–4 weeks) and low–moderate risk of bias [31]. Candidate mechanisms include autonomic/cholinergic modulation, α7/NF-κB anti-inflammation with duodenal barrier restoration, HPA-axis inhibition, and rebalancing of brain–gut peptides **including GLP-1** — but GLP-1 was a listed biomarker/mechanism, not a demonstrated mediator [31].
+
+**EMERGING (human, obesity/NTS):** a 2026 review argues taVNS may restore NTS-mediated satiety by **upregulating satiety-promoting GLP-1ergic NTS neurons** and attenuating aberrant TH+ catecholaminergic NTS activity — based on rodent data; the authors flag unstandardised parameters and no large long-term RCTs [32].
+
+**No results yet — the GLP-1RA combination trials:** (i) taVNS + semaglutide in T2DM with GI side effects: randomised, sham-controlled protocol, n=60, 12 weeks, **primary outcome Rhodes Index of Nausea/Vomiting/Retching** (Front Neurol 2025) [33]. (ii) taVNS for metformin GI intolerance: n=60 pilot, biomarkers include **GLP-1, 5-HT, IL-6, IL-10, TNF-α** [34]. Neither has reported outcomes. **Do not cite taVNS as an established adjunct to GLP-1RA therapy.**
+
+### 5.3 VNS, satiety, gastric motility, inflammation, HPA/stress — summary table
+
+| Outcome | Evidence | Flag |
+|---|---|---|
+| GLP-1 secretion | ↑ postprandial GLP-1 in diabetic rats (aVNS) [29]; ↑ GLP-1/PYY with gastric VNS in rats (unverified primary) [30] | EMERGING (animal only) |
+| Satiety / food intake | Mechanoreceptor (not VNS) stimulation suppresses feeding [3]; vBloc (blockade) also reduces weight [30] | DEBATED — direction depends on what is stimulated/blocked |
+| Gastric motility/emptying | taVNS improves emptying in FD rats ≈ invasive VNS [31]; human FD RCTs improve accommodation [31] | EMERGING (rodent + small human) |
+| Inflammation | VNS → CAP → ↓TNF via α7 (rodent) [24]; taVNS → α7/NF-κB in FD rats [31] | ESTABLISHED (rodent); EMERGING (human) |
+| HPA / stress | VNS engages NTS→PVH→cortisol axis (Bonaz review) [35]; NTS PPG neurons are stress-activated and mediate restraint-stress hypophagia via PVN→cNTS input [10]; taVNS nausea trial measures salivary cortisol as outcome (no results) | EMERGING — mechanistic, no clinical cortisol endpoint established |
+
+---
+
+## 6. Clinical relevance
+
+### 6.1 Vagotomy (human)
+
+Truncal vagotomy with pyloroplasty (n=16) vs matched controls (n=10), OGTT ± vildagliptin (DPP-4 inhibitor) and isoglycaemic IV glucose: **GIGD reduced**; gastric emptying **faster** and unaffected by DPP-4 inhibition; peak intact GLP-1 **higher**; early GIP response higher; **incretin effect equal**; DPP-4 inhibition enhanced insulin in controls but **not** in vagotomised subjects; DPP-4 inhibition further suppressed glucagon in controls and tended to normalise it in vagotomised subjects [16]. Interpretation (authors): part of physiological GLP-1's effect involves vagal transmission, but the incretin effect per se survives vagotomy — consistent with §2. In rats, truncal vagotomy lowers food intake/body weight yet **blunts the anorectic response to acute GLP-1** and raises GLP-1-evoked leptin, suggesting a vagus-dependent GLP-1–leptin axis [36] — single study, **EMERGING**.
+
+### 6.2 Bariatric surgery
+
+**ESTABLISHED:** Roux-en-Y gastric bypass (RYGB) massively increases postprandial GLP-1 (up to ~6-fold in some series) and PYY via accelerated nutrient delivery to distal L-cells (hindgut hypothesis), with more moderate increases after sleeve gastrectomy (SG); GLP-1-receptor-deficient animals still lose weight after RYGB, and exendin(9-39) worsens glycaemia post-RYGB without returning it to baseline — **GLP-1 is important but not the sole mediator** [17,37].
+
+**EMERGING — RYGB injures the vagus it relies on:** In obese male mice, RYGB induced **Atf3 mRNA (axonal-injury marker) in a subset of vagal sensory neurons**, significantly **reduced the proportion of Glp1r-expressing vagal afferents and total nodose *Glp1r* mRNA**, and nerve-transection experiments replicated these changes — i.e. axonal injury alone may account for them. Paradoxically, acute exendin-4 **enhanced vagal firing more** in RYGB (and vagal-injury) animals than in controls: **vagal neuropathy with reduced receptor expression but heightened GLP-1 sensitivity** [38]. Anatomically, RYGB transects vagal branches to the gastric remnant (pouch vagotomised, pouch fibres intact); SG resects fundic vagal innervation and transects distal gastric vagal endings, accelerates gastric emptying, and increases GLP-1/PYY while markedly reducing ghrelin [37,39]. In mice, **TGR5 (bile-acid receptor) signalling is required** to maintain VSG benefits on weight, glucose tolerance, hepatic steatosis and GLP-1 secretion [39] — bile-acid/vagal interaction, **EMERGING**.
+
+**DEBATED — does endogenous GLP-1 still suppress eating after RYGB?** Svane et al.: exendin(9-39) **increased food intake before RYGB but not after**; post-operatively GLP-1 *and* PYY are hugely elevated, and exendin(9-39) itself paradoxically raises them further (paracrine negative feedback), confounding the blockade test [17,37]. A trial adding truncal vagotomy to RYGB (VagusSx, NCT07278115) is testing whether vagal interruption *improves* diabetes remission — i.e. the field is unsure whether post-RYGB vagal signalling helps or harms [40]. Do not present post-bariatric GLP-1 as simply "more hormone, more vagal satiety".
+
+### 6.3 GLP-1RA nausea and the vagal emetic pathway
+
+**ESTABLISHED:** Nausea (~40–50% on semaglutide) and vomiting (~25%) are the commonest dose-limiting effects, worst in the 48 h after dose escalation, habituating over 2–4 weeks at a stable dose [41]. Mechanism is **dual**: (i) **central** — GLP-1R in the DVC (NTS + AP); the AP lacks a normal blood–brain barrier (chemosensory trigger zone), so circulating agonists directly activate it; (ii) **peripheral** — GLP-1R on vagal afferents from stomach/intestine, amplified by slowed gastric emptying → gastric distension → increased vagal afferent firing [41]. **ESTABLISHED (mouse):** CCK-expressing NTS/AP neurons (CCK^AP/NTS^) are **required** for the full anorectic and body-weight-lowering effects of exendin-4 *and* for GLP-1RA-induced conditioned taste avoidance (the rodent nausea proxy); they express high *Glp1r* but no *Gipr*; GIP-receptor co-activation (via neighbouring GABAergic interneurons) dampens a subset of CCK^AP/NTS^ neurons and **selectively reduces conditioned taste avoidance without losing anorexia** — a mechanistic rationale for why dual GIP/GLP-1 agonists (tirzepatide) may be better tolerated [42]. Note the dissociation from §1.3: the nausea-relevant CCK neurons are *postsynaptic* brainstem targets of GLP-1RAs, not the vagal afferents themselves; and NTS PPG (central GLP-1) neurons are dispensable for exendin-4 anorexia [1,42].
+
+### 6.4 Vagal tone / HRV in GLP-1RA therapy, and dysautonomia
+
+**DEBATED — HRV direction and meaning.** GLP-1RAs as a class **increase resting heart rate** (~2–3 bpm) [43]. A 12-week prospective observational study (n=45, T2DM on GLP-1RA): the control (dapagliflozin-naïve) group showed significant **reductions in SDNN, SDANN, RMSSD, pNN50 and lnHF, with rises in lnLF and lnLF/lnHF** — i.e. reduced vagal HRV indices; the dapagliflozin-exposed group showed no significant HRV change (authors: hypothesis-generating, needs larger prospective confirmation) [43]. **Contradicting** this, a small exenatide-ER study (n=28, 3–6 months) found LF/HF **fell** from 3.05±0.4 to 1.64±0.2 lying (and 4.56 to 2.24 standing), interpreted as a **relative increase in vagal influence** on the heart, with HR rise unrelated to sympathetic tone [44]. Differences in drug (short- vs long-acting), duration, posture, HRV metric and the fact that HR rise itself compresses HRV indices make the literature uninterpretable as a single "GLP-1RA lowers vagal tone" claim. **Do not use HRV as a proxy for gut vagal tone** — cardiac vagal and gut vagal outflows are separately regulated (DMV vs nucleus ambiguus).
+
+**ESTABLISHED (registry) — no excess hard vagal events:** In Danish nationwide registers (T2DM and obesity cohorts, GLP-1RA initiators vs SGLT2-inhibitor active controls, 2010–2022), standardised 1-year absolute risk of syncope was **0.58% (GLP-1RA) vs 0.56% (SGLT2i)**; risks of fracture, bradyarrhythmia and cardiac device implantation were equally low (risk ratios 0.90, 0.97, 0.86) [45]. The authors stress direct enhancement of cardiac vagal activity by GLP-1RAs "has not been conclusively demonstrated in humans" and vagal-mediated effects should be considered biologically plausible rather than established [45].
+
+**EMERGING / unproven — dysautonomia implications.** Diabetes with cardiac autonomic neuropathy, gastroparesis and other dysautonomias (including POTS-like presentations) plausibly interact with GLP-1RA therapy in both directions — blunted endogenous vagal GLP-1 signalling, exaggerated distension/nausea from delayed emptying, and orthostatic symptoms amplified by nausea/dehydration — but **no trial has tested GLP-1RAs in dysautonomia cohorts**, and GLP-1RAs have not been studied in severe gastroparesis and are not recommended there [41,45]. For the survey's fight-or-flight framing, the defensible statement is: chronic sympathetic dominance / low HRV is a *risk marker* in these patients, GLP-1RAs modestly raise HR and (in some studies) lower HRV indices, yet hard vagal-event risk is not increased in registry data; any claim that GLP-1RAs "improve" or "worsen" dysautonomia is unsupported.
+
+---
+
+## 7. Key primary sources (numbered)
+
+1. Neuroendocrine gut–brain signaling in obesity. *Trends Endocrinol Metab*. 2024. — NTS^Glp1^ neurons receive Oxtr+, not Glp1r+, vagal input; peripheral + central GLP-1 additive; Gpr65+ control of intake. https://www.cell.com/trends/endocrinology-metabolism/fulltext/S1043-2760(24)00120-6
+2. Lansbury EL et al. Neurons co-expressing GLP-1, CCK, and PYY receptors particularly in right nodose ganglion and innervating entire GI tract in mice. *Int J Mol Sci*. 2025;26:2053. doi:10.3390/ijms26052053. https://www.mdpi.com/1422-0067/26/5/2053
+3. Bai L et al. Genetic identification of vagal sensory neurons that control feeding. *Cell*. 2019;179:1129–1143.e23. doi:10.1016/j.cell.2019.10.031. PMID 31730854. https://pmc.ncbi.nlm.nih.gov/articles/PMC6916730/
+4. Williams EK et al. Sensory neurons that detect stretch and nutrients in the digestive system. *Cell*. 2016;166:209–221. doi:10.1016/j.cell.2016.05.011.
+5. Anatomy and function of efferent and afferent vagal innervation of the stomach. *Auton Neurosci*. 2026;267:103465. doi:10.1016/j.autneu.2026.103465. https://pmc.ncbi.nlm.nih.gov/articles/PMC13624939/
+6. Mechanosensation of the heart and gut elicits hypometabolism and vigilance in mice. *bioRxiv* 2023; peer-reviewed version available. PMID 37425814. https://pmc.ncbi.nlm.nih.gov/articles/PMC10327188/
+7. See [2].
+8. Katsurada K, Yada T. Neural effects of gut- and brain-derived GLP-1 and its receptor agonist. *J Diabetes Investig*. 2016;7:64–69. doi:10.1111/jdi.12464. https://pmc.ncbi.nlm.nih.gov/articles/PMC4854507/
+9. CNS GLP-1 regulation of peripheral glucose homeostasis. *Physiol Behav*. 2008;94:670–674. doi:10.1016/j.physbeh.2008.04.018. https://pmc.ncbi.nlm.nih.gov/articles/PMC2495054/
+10. Holt MK et al. Modulation of stress-related behaviour by preproglucagon neurons and hypothalamic projections to the NTS. *Mol Metab*. 2025;91:102076. doi:10.1016/j.molmet.2024.102076. https://pmc.ncbi.nlm.nih.gov/articles/PMC11667184/
+11. Bucinskaite V et al. Receptor-mediated activation of gastric vagal afferents by GLP-1 in the rat. *Neurogastroenterol Motil*. 2009;21:978–e78. doi:10.1111/j.1365-2982.2009.01317.x. PMID 19453518. https://pubmed.ncbi.nlm.nih.gov/19453518/
+12. Hankir MK, Lutz TA. Novel neural pathways targeted by GLP-1R agonists and bariatric surgery. *Pflugers Arch*. 2025;477:171–185. doi:10.1007/s00424-024-03047-3. https://rcastoragev2.blob.core.windows.net/d01309d1d0b5f2b33cbe8ca90efd3070/424_2024_Article_3047.pdf
+13. Comparing the anorexigenic effects and mechanisms of gut-derived GLP-1 and its receptor agonists. *Diabetol Int*. 2025;16:448–456. doi:10.1007/s13340-025-00819-9. https://pmc.ncbi.nlm.nih.gov/articles/PMC12209052/
+14. Krieger J-P et al. Knockdown of GLP-1 receptors in vagal afferents affects normal food intake and glycemia. *Diabetes*. 2016;65:34–43.
+15. Gastrointestinal distension by pectin-containing carbonated solution suppresses food intake and enhances glucose tolerance via GLP-1 secretion and vagal afferent activation. *Front Endocrinol*. 2021. doi:10.3389/fendo.2021.676869. https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2021.676869/full
+16. Characterisation of oral and i.v. glucose handling in truncally vagotomised subjects with pyloroplasty. *Eur J Endocrinol*. 2013;169:187–. https://academic.oup.com/ejendo/article/169/2/187/6671013
+17. Holst JJ. GLP-1 physiology in obesity and development of incretin-based drugs for chronic weight management. *Nat Metab*. 2024;6:1866–1885. doi:10.1038/s42255-024-01113-9. https://curis.ku.dk/ws/files/411704564/GLP_1_physiology_in_obesity.pdf
+18. The L-cell in nutritional sensing and the regulation of appetite. *Front Nutr*. 2015;2:23. doi:10.3389/fnut.2015.00023. https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2015.00023/full
+19. Kaelberer MM et al. A gut-brain neural circuit for nutrient sensory transduction. *Science*. 2018;361:eaat5236. doi:10.1126/science.aat5236. PMID 30237325. https://pmc.ncbi.nlm.nih.gov/articles/PMC6417812/
+20. Buchanan KL et al. The preference for sugar over sweetener depends on a gut sensor cell. *Nat Neurosci*. 2022;25:191–200. doi:10.1038/s41593-021-00982-7. https://www.nature.com/articles/s41593-021-00982-7
+21. From epithelial sensing to visceral pain: neuropod and enterochromaffin cells in gut neuroepithelial circuits. *Int J Mol Sci*. 2026;27:5109. doi:10.3390/ijms27115109. https://pmc.ncbi.nlm.nih.gov/articles/PMC13257258/
+22. Cao N, Merchant W, Gautron L. Limited evidence for anatomical contacts between intestinal GLP-1 cells and vagal neurons in male mice. *Sci Rep*. 2024;14:23666. doi:10.1038/s41598-024-74000-8. PMID 39390033. https://pmc.ncbi.nlm.nih.gov/articles/PMC11467209/
+23. Holmes GM et al. Vagally mediated effects of GLP-1: in vitro and in vivo gastric actions. *J Physiol*. 2009;587:4749–4759. doi:10.1113/jphysiol.2009.175067. PMID 19675064. https://pmc.ncbi.nlm.nih.gov/articles/PMC2768027/
+24. Wang H et al. Nicotinic acetylcholine receptor alpha7 subunit is an essential regulator of inflammation. *Nature*. 2003;421:384–388. doi:10.1038/nature01339. PMID 12508119. https://pubmed.ncbi.nlm.nih.gov:443/12508119/
+25. Báez-Pagán CA et al. Activation of the macrophage α7 nicotinic acetylcholine receptor and control of inflammation. *J Neuroimmune Pharmacol*. 2015;10:468–476. doi:10.1007/s11481-015-9601-5. PMID 25870122. https://pmc.ncbi.nlm.nih.gov/articles/PMC4546521/
+26. Rocca AS, Brubaker PL. Role of the vagus nerve in mediating proximal nutrient-induced GLP-1 secretion. *Endocrinology*. 1999;140:1687–1694. doi:10.1210/endo.140.4.6643. PMID 10098504. https://pubmed.ncbi.nlm.nih.gov/10098504/
+27. Lim GE, Brubaker PL. Glucagon-like peptide 1 secretion by the L-cell (review of proximal-distal loop; atropine/human data). *Diabetes*. 2012 (and refs therein) — see [26] for primary data; human GIP discordance as reviewed in [27]/[17].
+28. Deelman TE et al. Selective vagal deafferentation leads to improvement in insulin response and GLP-1 secretion (capsaicin, rat; conference abstract, MCACS 2012). https://mcacs.org/meeting/abstracts/2012/P28.cgi
+29. Li F et al. Auricular vagal nerve stimulation improves hyperglycemia by enhancing release of postprandial incretin hormones and vagal efferent activity in type 2 diabetic rats (conference abstract, *Gastroenterology* 2024); and Li SY et al. taVNS improves gastric emptying and visceral hypersensitivity in a rodent model of functional dyspepsia via cholinergic anti-inflammatory pathway (abstract, *Gastroenterology* 2024). https://www.gastrojournal.org/article/S0016-5085(24)00824-2/pdf
+30. John S et al. Review linking TGF-β and vagus nerve in obesity. *Bioelectron Med*. 2025 (secondary summary of gastric-VNS rat data and vBloc/ReCharge). https://scienmag.com/review-links-tgf-%CE%B2-and-vagus-nerve-in-obesity/
+31. Transcutaneous auricular vagus nerve stimulation targets the brain-gut axis to treat functional dyspepsia: a scoping review. *Front Neurosci*. 2026. doi:10.3389/fnins.2026.1876591. https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2026.1876591/full
+32. NTS neural subtypes and satiety pathways: taVNS as a novel neuromodulatory intervention. *Brain Sci*. 2026;16:755. doi:10.3390/brainsci16070755. https://www.mdpi.com/2076-3425/16/7/755/pdf
+33. Tian X et al. Efficacy evaluation and mechanistic investigation of taVNS in enhancing semaglutide effects and reducing GI side effects: RCT protocol. *Front Neurol*. 2025. doi:10.3389/fneur.2025.1653900. https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2025.1653900/pdf
+34. Ge et al. taVNS to alleviate metformin-associated GI adverse events: RCT protocol. *Front Neurosci*. 2026. doi:10.3389/fnins.2026.1744208. https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2026.1744208/pdf
+35. Bonaz B et al. Vagus nerve stimulation at the interface of brain-gut interactions. *Cold Spring Harb Perspect Med*. 2019. doi:10.1101/cshperspect.a034199. https://perspectivesinmedicine.cshlp.org/content/early/2018/09/10/cshperspect.a034199.full.pdf
+36. GLP-1 increases circulating leptin levels in truncal vagotomized rats. *Biomedicines*. 2023;11:1322. doi:10.3390/biomedicines11051322. https://www.mdpi.com/2227-9059/11/5/1322/xml
+37. Holst JJ et al. New lessons from the gut: role of gut peptides in weight loss and diabetes resolution after gastric bypass and sleeve gastrectomy. *Peptides*. 2024;176:171199. doi:10.1016/j.peptides.2024.171199. https://curis.ku.dk/ws/files/387739818/1_s2.0_S0196978124000524_main.pdf
+38. RYGB induces vagal sensory neuropathy characterized by altered GLP1R expression and enhanced exendin-4 responsiveness in male mice. *Am J Physiol Endocrinol Metab*. 2026;330:E114–E126. doi:10.1152/ajpendo.00452.2025. PMID 41385561. https://iro.uiowa.edu/esploro/outputs/journalArticle/RYGB-Induces-Vagal-Sensory-Neuropathy-Characterized/9985090600302771
+39. Adaptations in gastrointestinal physiology after sleeve gastrectomy and Roux-en-Y gastric bypass (review; SG accelerates emptying, vagal transection, TGR5 requirement for VSG in mice). https://www.academia.edu/121443565/Adaptations_in_gastrointestinal_physiology_after_sleeve_gastrectomy_and_Roux_en_Y_gastric_bypass
+40. Roux-en-Y gastric bypass plus truncal vagotomy vs RYGB alone in T2DM — VagusSx trial (NCT07278115, triple-blind RCT, recruiting/protocol). https://ichgcp.net/clinical-trials-registry/NCT07278115
+41. Do no harm: managing nausea and vomiting in GLP-1 based obesity therapies. *Front Endocrinol*. 2026. doi:10.3389/fendo.2026.1788698. https://pmc.ncbi.nlm.nih.gov/articles/PMC12992036/
+42. Costa A et al. Anorectic and aversive effects of GLP-1 receptor agonism are mediated by brainstem cholecystokinin neurons, and modulated by GIP receptor activation. *Mol Metab*. 2022;55:101407. doi:10.1016/j.molmet.2021.101407. PMID 34844019. https://pmc.ncbi.nlm.nih.gov/articles/PMC8689241/
+43. Wang Y et al. Dapagliflozin associates with heart rate variability decline in T2DM patients on GLP-1 receptor agonist therapy: prospective observational study. *Front Endocrinol*. 2026;17:1809146. doi:10.3389/fendo.2026.1809146. https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2026.1809146/pdf
+44. Long-acting GLP-1 receptor agonist exenatide influence on the autonomic cardiac sympatho-vagal balance. PMID 29379894. https://www.ncbi.nlm.nih.gov/pubmed/29379894
+45. Vagal activity-related events and glucagon-like peptide-1 receptor agonists (Danish nationwide registers). *Eur Heart J Cardiovasc Pharmacother*. 2025. doi:10.1093/ehjcvp/pvag072. http://academic.oup.com/ehjcvp/advance-article/doi/10.1093/ehjcvp/pvag072/8788047
+
+*Note on [27] and [30]: these are reviews/secondary summaries used only where the primary paper was not directly verified; they are flagged as such in the text. DOIs/PMIDs are given only where verified in the sources above; where a DOI was not returned by the search, none is invented.*
+
+## 8. Open questions / controversies
+
+1. **Is there a GLP-1 synapse?** Does any enteroendocrine subtype co-releasing GLP-1 (e.g. duodenal L/K-cells, or GLP-1+/CCK+ cells) form a functional glutamatergic neuropod synapse, or is the CCK/PYY neuropod circuit GLP-1-independent? Needs EM-level evidence, female animals, and upper-gut L-cells — Cao et al. examined male lower gut only [22].
+2. **What transduces GLP-1 in nodose neurons?** Gs→cAMP is assumed, not shown, in nodose cells; the channel(s) and Ca²⁺ source, and how stretch (Piezo/IGLE) and GLP-1R inputs summate in the same neuron, are unknown.
+3. **Why does exendin-4 activate nodose neurons in some preparations and not others?** Route/dose/species/terminal preservation — a systematic replication is needed before any claim about "GLP-1RA vagal activation" is made.
+4. **Endogenous GLP-1 after RYGB:** is the loss of exendin(9-39) effect on food intake post-RYGB real (GLP-1 no longer needed) or an artefact of PYY co-elevation and feedback [17,37]? And does RYGB vagal neuropathy with *heightened* exendin-4 sensitivity [38] help or hinder long-term weight maintenance?
+5. **Human proximal-distal loop:** which proximal signal drives early GLP-1 secretion in humans, if not GIP? Atropine data implicate cholinergic signalling, but the afferent trigger is unidentified [26,27].
+6. **taVNS + GLP-1RA:** do the ongoing sham-controlled trials [33,34] show any effect on nausea, GLP-1 levels or glycaemia? Until they report, taVNS is a hypothesis, not an adjunct.
+7. **HRV paradox:** why do some GLP-1RA studies show reduced HRV indices and others a relative vagal increase [43,44]? Drug, duration, posture and HR-confounding need a pre-registered, standardised HRV study — and cardiac HRV must not be conflated with gut vagal tone.
+8. **Sex differences:** Oxtr+ IGLE density and oxytocin efficacy differ by sex [6]; PPG-neuron stress effects are sex-dependent [10]; most anatomy (including Cao et al.) used males only. Female vagal–GLP-1 physiology is systematically under-studied.
+9. **The CAP in humans:** does the rodent splenic relay exist in humans, and does GLP-1RA anti-inflammation involve vagal/α7 mechanisms at all? Currently no direct evidence.
+10. **Fight-or-flight integration (for the parent survey):** intestinal mechanoreceptor (Oxtr+) activation produces vigilance/HPA activation and hypometabolism [6], while NTS PPG neurons mediate stress hypophagia [10] — the vagus–GLP-1 interface is therefore not only a satiety system but a *threat/interoception* system. Whether GLP-1RAs alter stress reactivity via this circuit in humans is untested.
+
+## Could not verify
+
+- **Primary data for gastric-VNS raising GLP-1/PYY and reducing rat body weight by ~38%** — found only as a secondary summary in a 2025 review [30]; the primary paper was not located/verified. Treat as unverified.
+- **Indole → colonic L-cell GLP-1 → vagal firing** — found only in a secondary web summary; primary paper not verified. Not used as a core claim above.
+- **DOI for Krieger et al. 2016 [14] and for Williams et al. 2016 [4] beyond the DOI given** — DOI for Williams is verified from the publisher page; Krieger DOI/PMID were not returned by search and are omitted rather than guessed. The truncal-vagotomy human paper [16] is cited by journal/volume/page as returned; its DOI was not verified.
+- **Human taVNS effects on GLP-1 secretion** — no human study found; only rodent aVNS (abstract) and two human protocols without results [29,33,34].
+- **Direct GLP-1 → cholinergic anti-inflammatory pathway link** — no primary evidence found; absence is reported, not assumed.
+
+## Sources
+
+Numbered sources [1]–[45] in §7 above, with URLs/DOIs/PMIDs as verified on 2026-11-16 (index + PMC/PubMed live reads for Kaelberer [19], Bai [3], Cao [22], Holmes [23]). All other claims are traceable to the numbered source cited inline. No page instructions were encountered that required non-compliance; no login, payment or CAPTCHA was involved.
